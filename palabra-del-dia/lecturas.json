@@ -1,0 +1,2562 @@
+{
+  "version": "1.0",
+  "idioma": "es",
+  "descripcion": "Plan anual de lecturas bíblicas y reflexión cristiana para 365 días.",
+  "dias": {
+    "1": {
+      "titulo": "Un nuevo comienzo",
+      "referencia": "Génesis 1, 1-31",
+      "tema": "La creación",
+      "reflexion": "Cada nuevo día es una oportunidad para reconocer que la vida es un don de Dios y para comenzar nuevamente con esperanza.",
+      "oracion": "Señor, acompáñame en este nuevo comienzo y ayúdame a descubrir tu presencia en todo lo creado."
+    },
+    "2": {
+      "titulo": "La dignidad de la persona",
+      "referencia": "Génesis 2, 4-25",
+      "tema": "El ser humano creado por Dios",
+      "reflexion": "Nuestra vida tiene un valor profundo porque hemos sido llamados a vivir en relación con Dios, con los demás y con la creación.",
+      "oracion": "Señor, enséñame a valorar mi vida y la vida de cada persona que encuentre hoy."
+    },
+    "3": {
+      "titulo": "Elegir el bien",
+      "referencia": "Génesis 3, 1-24",
+      "tema": "La libertad y la tentación",
+      "reflexion": "La libertad es un regalo que también implica responsabilidad. Cada día estamos llamados a elegir aquello que conduce al bien.",
+      "oracion": "Dios mío, dame sabiduría y fortaleza para elegir siempre el camino del bien."
+    },
+    "4": {
+      "titulo": "El hermano",
+      "referencia": "Génesis 4, 1-16",
+      "tema": "Caín y Abel",
+      "reflexion": "La indiferencia y la envidia pueden alejarnos de quienes tenemos cerca. Dios nos llama a cuidar al hermano.",
+      "oracion": "Señor, quita de mi corazón toda envidia y hazme una persona capaz de cuidar y acompañar a los demás."
+    },
+    "5": {
+      "titulo": "Caminar con Dios",
+      "referencia": "Génesis 5, 21-24",
+      "tema": "Enoc",
+      "reflexion": "Caminar con Dios significa hacer de su presencia una compañía cotidiana, incluso en las tareas más sencillas.",
+      "oracion": "Señor, quédate conmigo durante este día y enséñame a caminar siempre junto a ti."
+    },
+    "6": {
+      "titulo": "Una nueva oportunidad",
+      "referencia": "Génesis 6, 5-22",
+      "tema": "Noé",
+      "reflexion": "En medio de tiempos difíciles, Noé escucha a Dios y confía. La fidelidad puede comenzar con un pequeño acto de obediencia.",
+      "oracion": "Dios fiel, ayúdame a confiar en ti incluso cuando no comprenda completamente tus caminos."
+    },
+    "7": {
+      "titulo": "La alianza",
+      "referencia": "Génesis 9, 8-17",
+      "tema": "La alianza de Dios",
+      "reflexion": "Dios permanece fiel. Sus promesas nos recuerdan que nunca estamos solos en nuestro camino.",
+      "oracion": "Señor, ayúdame a recordar tu fidelidad cuando aparezcan dificultades."
+    },
+    "8": {
+      "titulo": "Salir de la comodidad",
+      "referencia": "Génesis 12, 1-9",
+      "tema": "La llamada de Abraham",
+      "reflexion": "La fe muchas veces comienza cuando nos atrevemos a dar un paso hacia lo desconocido confiando en Dios.",
+      "oracion": "Señor, dame valor para responder a las llamadas que haces a mi corazón."
+    },
+    "9": {
+      "titulo": "La confianza",
+      "referencia": "Génesis 15, 1-6",
+      "tema": "Abraham confía",
+      "reflexion": "La fe no significa tener todas las respuestas, sino aprender a confiar en quien nos acompaña.",
+      "oracion": "Aumenta, Señor, mi fe y enséñame a confiar en tus promesas."
+    },
+    "10": {
+      "titulo": "Dios escucha",
+      "referencia": "Génesis 18, 16-33",
+      "tema": "La intercesión",
+      "reflexion": "La oración de Abraham nos recuerda que podemos presentar ante Dios las necesidades de otras personas.",
+      "oracion": "Señor, recibe hoy mis oraciones por quienes sufren y necesitan esperanza."
+    },
+    "11": {
+      "titulo": "Una prueba de fe",
+      "referencia": "Génesis 22, 1-19",
+      "tema": "Abraham e Isaac",
+      "reflexion": "La confianza en Dios puede ser probada en momentos difíciles. La fe nos invita a poner nuestra vida en sus manos.",
+      "oracion": "Padre, enséñame a confiar en ti aun cuando atraviese momentos que no comprendo."
+    },
+    "12": {
+      "titulo": "El amor que encuentra",
+      "referencia": "Génesis 24, 1-27",
+      "tema": "Providencia",
+      "reflexion": "Muchas veces descubrimos la acción de Dios cuando miramos con calma el camino que hemos recorrido.",
+      "oracion": "Señor, abre mis ojos para reconocer tu providencia en mi vida."
+    },
+    "13": {
+      "titulo": "Una familia herida",
+      "referencia": "Génesis 27, 1-29",
+      "tema": "Jacob y Esaú",
+      "reflexion": "Las decisiones equivocadas pueden herir profundamente. Sin embargo, Dios continúa trabajando incluso en medio de nuestras fragilidades.",
+      "oracion": "Señor, sana las heridas de nuestras familias y enséñanos a buscar la reconciliación."
+    },
+    "14": {
+      "titulo": "Dios está contigo",
+      "referencia": "Génesis 28, 10-22",
+      "tema": "El sueño de Jacob",
+      "reflexion": "Cuando nos sentimos solos, podemos recordar que la presencia de Dios no depende de nuestras circunstancias.",
+      "oracion": "Señor, acompáñame cuando me sienta solo y recuérdame que nunca estoy abandonado."
+    },
+    "15": {
+      "titulo": "Perdonar",
+      "referencia": "Génesis 33, 1-20",
+      "tema": "El encuentro de Jacob y Esaú",
+      "reflexion": "El perdón abre caminos que parecían cerrados. Reconciliarse requiere humildad, valentía y un corazón dispuesto.",
+      "oracion": "Señor, dame la gracia de pedir perdón y de perdonar sinceramente."
+    },
+    "16": {
+      "titulo": "Dios transforma el mal",
+      "referencia": "Génesis 37, 1-36",
+      "tema": "José y sus hermanos",
+      "reflexion": "La historia de José muestra que Dios puede abrir caminos nuevos incluso después de experiencias dolorosas.",
+      "oracion": "Señor, transforma mis dificultades en oportunidades para crecer en la fe."
+    },
+    "17": {
+      "titulo": "Una vida reconciliada",
+      "referencia": "Génesis 45, 1-15",
+      "tema": "José perdona",
+      "reflexion": "El perdón no borra el pasado, pero puede impedir que el pasado siga gobernando nuestro presente.",
+      "oracion": "Jesús, enséñame a liberar mi corazón del rencor."
+    },
+    "18": {
+      "titulo": "Dios acompaña a su pueblo",
+      "referencia": "Éxodo 3, 1-15",
+      "tema": "La vocación de Moisés",
+      "reflexion": "Dios llama a personas concretas para colaborar con su obra. También nosotros podemos responder a pequeñas llamadas cotidianas.",
+      "oracion": "Señor, aquí estoy. Muéstrame cómo puedo servirte hoy."
+    },
+    "19": {
+      "titulo": "No tengas miedo",
+      "referencia": "Éxodo 14, 5-31",
+      "tema": "El paso del mar",
+      "reflexion": "Ante situaciones que parecen imposibles, la fe nos invita a no quedarnos paralizados por el miedo.",
+      "oracion": "Señor, fortalece mi corazón cuando tenga miedo y ayúdame a seguir adelante."
+    },
+    "20": {
+      "titulo": "Los mandamientos",
+      "referencia": "Éxodo 20, 1-21",
+      "tema": "La ley de Dios",
+      "reflexion": "Los mandamientos no son una carga sin sentido, sino una orientación para aprender a amar a Dios y al prójimo.",
+      "oracion": "Señor, ayúdame a vivir tus mandamientos desde el amor y no solamente desde la obligación."
+    },
+    "21": {
+      "titulo": "Un pueblo santo",
+      "referencia": "Levítico 19, 1-18",
+      "tema": "La santidad",
+      "reflexion": "La santidad se expresa también en la manera en que tratamos a las personas que encontramos cada día.",
+      "oracion": "Señor, hazme santo en las pequeñas acciones de cada día."
+    },
+    "22": {
+      "titulo": "La bendición",
+      "referencia": "Números 6, 22-27",
+      "tema": "La bendición de Dios",
+      "reflexion": "La bendición de Dios nos recuerda que su deseo es acompañar, proteger y llenar de paz a su pueblo.",
+      "oracion": "Señor, bendice mi vida, mi familia y a todas las personas que hoy necesitan tu paz."
+    },
+    "23": {
+      "titulo": "Elegir la vida",
+      "referencia": "Deuteronomio 30, 15-20",
+      "tema": "La elección",
+      "reflexion": "Cada día tomamos decisiones. Dios nos invita a escoger aquello que conduce a la vida, al amor y a la esperanza.",
+      "oracion": "Señor, ayúdame a elegir siempre aquello que construye vida."
+    },
+    "24": {
+      "titulo": "Sé fuerte y valiente",
+      "referencia": "Josué 1, 1-9",
+      "tema": "La valentía",
+      "reflexion": "La valentía cristiana no consiste en no tener miedo, sino en avanzar confiando en Dios a pesar del miedo.",
+      "oracion": "Señor, dame fortaleza para enfrentar con esperanza los desafíos de este día."
+    },
+    "25": {
+      "titulo": "Servir al Señor",
+      "referencia": "Josué 24, 14-24",
+      "tema": "La decisión de servir",
+      "reflexion": "La fe es también una decisión personal. Podemos elegir orientar nuestra vida hacia Dios y el servicio.",
+      "oracion": "Señor, quiero servirte con alegría y fidelidad."
+    },
+    "26": {
+      "titulo": "Dios llama a personas sencillas",
+      "referencia": "Jueces 6, 11-24",
+      "tema": "Gedeón",
+      "reflexion": "Dios puede llamar a personas que se sienten pequeñas o incapaces. La misión no depende solamente de nuestras fuerzas.",
+      "oracion": "Señor, cuando me sienta incapaz, recuérdame que tu gracia puede sostenerme."
+    },
+    "27": {
+      "titulo": "La fidelidad de Rut",
+      "referencia": "Rut 1, 1-18",
+      "tema": "Fidelidad",
+      "reflexion": "La fidelidad se demuestra permaneciendo cerca de quienes amamos, especialmente en los momentos difíciles.",
+      "oracion": "Señor, hazme una persona fiel y generosa con quienes necesitan mi compañía."
+    },
+    "28": {
+      "titulo": "Un corazón que escucha",
+      "referencia": "1 Samuel 3, 1-21",
+      "tema": "La llamada de Samuel",
+      "reflexion": "Para escuchar a Dios necesitamos hacer silencio y estar dispuestos a responder.",
+      "oracion": "Habla, Señor. Dame un corazón atento para reconocer tu voz."
+    },
+    "29": {
+      "titulo": "Dios mira el corazón",
+      "referencia": "1 Samuel 16, 1-13",
+      "tema": "David es elegido",
+      "reflexion": "Dios mira más allá de las apariencias. Lo verdaderamente importante se encuentra en el corazón.",
+      "oracion": "Señor, purifica mi corazón y ayúdame a mirar a los demás con tus ojos."
+    },
+    "30": {
+      "titulo": "La confianza frente al gigante",
+      "referencia": "1 Samuel 17, 32-50",
+      "tema": "David y Goliat",
+      "reflexion": "Los grandes problemas pueden parecer invencibles, pero la confianza y la perseverancia nos ayudan a afrontarlos.",
+      "oracion": "Señor, dame una fe firme para enfrentar mis propios gigantes."
+    },
+    "31": {
+      "titulo": "Un corazón arrepentido",
+      "referencia": "2 Samuel 12, 1-13",
+      "tema": "David reconoce su pecado",
+      "reflexion": "Reconocer nuestros errores no nos hace débiles. Es el primer paso hacia la conversión.",
+      "oracion": "Señor, dame humildad para reconocer mis errores y comenzar de nuevo."
+    },
+    "32": {
+      "titulo": "La sabiduría",
+      "referencia": "1 Reyes 3, 5-14",
+      "tema": "Salomón pide sabiduría",
+      "reflexion": "La verdadera sabiduría consiste en aprender a distinguir lo que conduce al bien.",
+      "oracion": "Señor, concédeme sabiduría para tomar buenas decisiones."
+    },
+    "33": {
+      "titulo": "La presencia de Dios",
+      "referencia": "1 Reyes 8, 22-30",
+      "tema": "La oración de Salomón",
+      "reflexion": "La oración nos ayuda a reconocer que nuestra vida está siempre abierta a la presencia de Dios.",
+      "oracion": "Señor, escucha mi oración y permanece cerca de quienes te buscan."
+    },
+    "34": {
+      "titulo": "Una voz que despierta",
+      "referencia": "1 Reyes 19, 1-18",
+      "tema": "Elías en el monte",
+      "reflexion": "Dios no siempre se manifiesta en lo extraordinario. A veces habla en el silencio que nuestro corazón necesita.",
+      "oracion": "Señor, enséñame a hacer silencio para escucharte."
+    },
+    "35": {
+      "titulo": "La compasión",
+      "referencia": "2 Reyes 4, 8-17",
+      "tema": "La hospitalidad",
+      "reflexion": "Abrir las puertas de nuestra casa y de nuestro corazón puede convertirse en una forma concreta de amar.",
+      "oracion": "Señor, hazme hospitalario y atento con quienes llegan a mi vida."
+    },
+    "36": {
+      "titulo": "Buscar a Dios",
+      "referencia": "1 Crónicas 16, 8-13",
+      "tema": "Dar gracias",
+      "reflexion": "Recordar las obras de Dios alimenta nuestra esperanza y nos ayuda a vivir con gratitud.",
+      "oracion": "Gracias, Señor, por todo lo que hoy recibo de ti."
+    },
+    "37": {
+      "titulo": "Un corazón dispuesto",
+      "referencia": "2 Crónicas 20, 1-22",
+      "tema": "Confiar en Dios",
+      "reflexion": "Hay momentos en que nuestras fuerzas no alcanzan. Entonces podemos aprender a confiar y a pedir ayuda.",
+      "oracion": "Señor, sostén a quienes atraviesan hoy una batalla que parece demasiado grande."
+    },
+    "38": {
+      "titulo": "Reconstruir",
+      "referencia": "Nehemías 2, 11-20",
+      "tema": "La reconstrucción",
+      "reflexion": "Después de una pérdida siempre puede existir la posibilidad de reconstruir con paciencia y esperanza.",
+      "oracion": "Señor, dame fuerza para reconstruir aquello que se ha roto en mi vida."
+    },
+    "39": {
+      "titulo": "La alegría",
+      "referencia": "Nehemías 8, 1-12",
+      "tema": "La alegría del Señor",
+      "reflexion": "La alegría profunda nace de descubrir que Dios permanece cerca incluso después de tiempos difíciles.",
+      "oracion": "Señor, devuelve a mi corazón la alegría que nace de tu amor."
+    },
+    "40": {
+      "titulo": "La oración en la prueba",
+      "referencia": "Tobías 3, 1-17",
+      "tema": "Oración y esperanza",
+      "reflexion": "Cuando sufrimos podemos llevar nuestra tristeza ante Dios. Él conoce nuestras lágrimas y escucha nuestro corazón.",
+      "oracion": "Señor, recibe las súplicas de quienes hoy sufren y dales esperanza."
+    },
+    "41": {
+      "titulo": "La confianza de Tobías",
+      "referencia": "Tobías 4, 1-21",
+      "tema": "Consejos para una vida buena",
+      "reflexion": "La fe se expresa también en la honestidad, la generosidad, la oración y el cuidado de los demás.",
+      "oracion": "Señor, ayúdame a vivir con rectitud y generosidad."
+    },
+    "42": {
+      "titulo": "El camino acompañado",
+      "referencia": "Tobías 5, 1-17",
+      "tema": "El viaje",
+      "reflexion": "En nuestros caminos necesitamos aprender a aceptar ayuda y también a acompañar a otros.",
+      "oracion": "Señor, guía mis pasos y pon personas buenas en mi camino."
+    },
+    "43": {
+      "titulo": "La alegría después de la prueba",
+      "referencia": "Tobías 11, 1-19",
+      "tema": "Restauración",
+      "reflexion": "La historia de Tobías nos recuerda que una etapa dolorosa no tiene por qué ser el final de nuestra historia.",
+      "oracion": "Señor, renueva la esperanza de quienes esperan una respuesta."
+    },
+    "44": {
+      "titulo": "La oración de Judit",
+      "referencia": "Judit 9, 1-14",
+      "tema": "Oración y valentía",
+      "reflexion": "La oración puede convertirse en fuente de valentía cuando debemos actuar por el bien de otros.",
+      "oracion": "Señor, dame valor para defender la verdad y proteger a quienes son vulnerables."
+    },
+    "45": {
+      "titulo": "La fidelidad en la dificultad",
+      "referencia": "Ester 4, 1-17",
+      "tema": "Ester",
+      "reflexion": "Hay momentos en los que permanecer indiferentes no es una opción. La fe nos impulsa a actuar.",
+      "oracion": "Señor, dame valentía para hacer el bien cuando más se necesita."
+    },
+    "46": {
+      "titulo": "La confianza en medio del dolor",
+      "referencia": "Job 1, 1-22",
+      "tema": "Job",
+      "reflexion": "El sufrimiento puede plantearnos preguntas profundas. La fe nos permite seguir buscando a Dios incluso sin comprenderlo todo.",
+      "oracion": "Señor, acompaña a quienes sufren y ayúdanos a no perder la esperanza."
+    },
+    "47": {
+      "titulo": "Dios conoce nuestro corazón",
+      "referencia": "Job 7, 1-21",
+      "tema": "El dolor humano",
+      "reflexion": "Podemos hablar con Dios con sinceridad. Incluso nuestras preguntas y lágrimas pueden formar parte de la oración.",
+      "oracion": "Señor, recibe mis preocupaciones y enséñame a confiar en ti."
+    },
+    "48": {
+      "titulo": "Dios responde",
+      "referencia": "Job 38, 1-18",
+      "tema": "La grandeza de Dios",
+      "reflexion": "Ante el misterio de la existencia descubrimos que no podemos comprenderlo todo, pero sí podemos contemplar la grandeza de Dios.",
+      "oracion": "Señor, dame humildad para aceptar aquello que no comprendo."
+    },
+    "49": {
+      "titulo": "El Señor es mi pastor",
+      "referencia": "Salmo 23, 1-6",
+      "tema": "Confianza",
+      "reflexion": "Dios acompaña nuestros caminos, también cuando atravesamos valles oscuros.",
+      "oracion": "Señor, sé mi pastor y guía mis pasos durante este día."
+    },
+    "50": {
+      "titulo": "Un corazón limpio",
+      "referencia": "Salmo 51, 3-19",
+      "tema": "Arrepentimiento",
+      "reflexion": "La misericordia de Dios siempre abre una puerta hacia la conversión y un nuevo comienzo.",
+      "oracion": "Crea en mí, Señor, un corazón nuevo y dispuesto a amar."
+    },
+    "51": {
+      "titulo": "La protección de Dios",
+      "referencia": "Salmo 91, 1-16",
+      "tema": "Protección",
+      "reflexion": "La confianza en Dios no significa ausencia de dificultades, sino saber que no las atravesamos solos.",
+      "oracion": "Señor, protege a mi familia y a todas las personas que amo."
+    },
+    "52": {
+      "titulo": "Alabar siempre",
+      "referencia": "Salmo 100, 1-5",
+      "tema": "Alabanza",
+      "reflexion": "La gratitud transforma nuestra mirada y nos ayuda a descubrir los pequeños regalos de cada día.",
+      "oracion": "Gracias, Señor, por la vida y por cada bendición que recibo."
+    },
+    "53": {
+      "titulo": "La misericordia",
+      "referencia": "Salmo 103, 1-22",
+      "tema": "Misericordia de Dios",
+      "reflexion": "Dios conoce nuestras fragilidades y nos invita a levantarnos nuevamente.",
+      "oracion": "Señor misericordioso, enséñame a recibir tu perdón y ofrecerlo a los demás."
+    },
+    "54": {
+      "titulo": "Tu palabra ilumina",
+      "referencia": "Salmo 119, 1-16",
+      "tema": "La Palabra de Dios",
+      "reflexion": "La Palabra puede convertirse en una luz que oriente nuestras decisiones y nuestra manera de vivir.",
+      "oracion": "Señor, ilumina mi camino con tu Palabra."
+    },
+    "55": {
+      "titulo": "Esperar en Dios",
+      "referencia": "Salmo 130, 1-8",
+      "tema": "Esperanza",
+      "reflexion": "Esperar en Dios no es quedarse inmóvil, sino mantener el corazón abierto a una respuesta.",
+      "oracion": "Señor, fortalece mi esperanza mientras espero tus tiempos."
+    },
+    "56": {
+      "titulo": "El principio de la sabiduría",
+      "referencia": "Proverbios 1, 1-7",
+      "tema": "Sabiduría",
+      "reflexion": "La verdadera sabiduría comienza cuando reconocemos que necesitamos aprender y dejarnos orientar.",
+      "oracion": "Señor, hazme humilde para aprender cada día."
+    },
+    "57": {
+      "titulo": "Guardar el corazón",
+      "referencia": "Proverbios 4, 20-27",
+      "tema": "Vida interior",
+      "reflexion": "Lo que cultivamos en nuestro interior termina influyendo en nuestras palabras y acciones.",
+      "oracion": "Señor, guarda mi corazón de todo aquello que me aleja del amor."
+    },
+    "58": {
+      "titulo": "Confiar de todo corazón",
+      "referencia": "Proverbios 3, 1-12",
+      "tema": "Confianza",
+      "reflexion": "Confiar en Dios significa reconocer que nuestra visión es limitada y que necesitamos su guía.",
+      "oracion": "Señor, guía mis decisiones y enséñame a confiar en ti."
+    },
+    "59": {
+      "titulo": "Todo tiene su momento",
+      "referencia": "Eclesiastés 3, 1-15",
+      "tema": "El tiempo",
+      "reflexion": "La vida tiene diferentes estaciones. Aprender a vivir cada una con serenidad es también una forma de sabiduría.",
+      "oracion": "Señor, ayúdame a aceptar los tiempos de mi vida con paz."
+    },
+    "60": {
+      "titulo": "El amor",
+      "referencia": "Cantar de los Cantares 8, 6-7",
+      "tema": "El amor fiel",
+      "reflexion": "El amor verdadero busca permanecer, cuidar y entregarse con fidelidad.",
+      "oracion": "Señor, enséñame a amar con generosidad y fidelidad."
+    },
+    "61": {
+      "titulo": "La sabiduría viene de Dios",
+      "referencia": "Sabiduría 6, 12-20",
+      "tema": "Sabiduría",
+      "reflexion": "Buscar la sabiduría es buscar una manera de vivir que nos acerque a la verdad y al bien.",
+      "oracion": "Señor, dame sabiduría para discernir lo que es bueno."
+    },
+    "62": {
+      "titulo": "Dios ama la vida",
+      "referencia": "Sabiduría 11, 22-26",
+      "tema": "El amor de Dios",
+      "reflexion": "La creación entera está sostenida por el amor de Dios. Nuestra respuesta debe ser también una respuesta de cuidado.",
+      "oracion": "Señor, enséñame a respetar y cuidar la vida."
+    },
+    "63": {
+      "titulo": "La oración del sabio",
+      "referencia": "Sabiduría 9, 1-18",
+      "tema": "Pedir sabiduría",
+      "reflexion": "Antes de actuar podemos pedir a Dios la luz necesaria para comprender y decidir.",
+      "oracion": "Espíritu Santo, ilumina mi mente y mi corazón."
+    },
+    "64": {
+      "titulo": "La compasión",
+      "referencia": "Eclesiástico 2, 1-11",
+      "tema": "Perseverancia",
+      "reflexion": "La dificultad pone a prueba nuestra paciencia, pero también puede fortalecer nuestra confianza.",
+      "oracion": "Señor, dame perseverancia en las pruebas."
+    },
+    "65": {
+      "titulo": "La amistad verdadera",
+      "referencia": "Eclesiástico 6, 5-17",
+      "tema": "Amistad",
+      "reflexion": "Una verdadera amistad se construye con fidelidad, confianza y presencia en los momentos buenos y malos.",
+      "oracion": "Señor, bendice a mis amigos y ayúdame a ser un buen amigo."
+    },
+    "66": {
+      "titulo": "Honrar a los padres",
+      "referencia": "Eclesiástico 3, 1-16",
+      "tema": "Familia",
+      "reflexion": "Cuidar y respetar a nuestros padres es una forma concreta de reconocer nuestras raíces y agradecer la vida.",
+      "oracion": "Señor, bendice a nuestras familias y especialmente a nuestros mayores."
+    },
+    "67": {
+      "titulo": "La generosidad",
+      "referencia": "Eclesiástico 4, 1-10",
+      "tema": "Ayudar al necesitado",
+      "reflexion": "La fe se hace visible cuando prestamos atención a quien necesita ayuda.",
+      "oracion": "Señor, abre mis ojos ante las necesidades de quienes me rodean."
+    },
+    "68": {
+      "titulo": "La misericordia",
+      "referencia": "Eclesiástico 28, 1-7",
+      "tema": "Perdón",
+      "reflexion": "Quien aprende a perdonar también descubre cuánto necesita ser perdonado.",
+      "oracion": "Señor, libera mi corazón del rencor."
+    },
+    "69": {
+      "titulo": "La oración del humilde",
+      "referencia": "Eclesiástico 35, 12-18",
+      "tema": "Oración",
+      "reflexion": "Dios escucha especialmente el clamor de quienes se encuentran en situación de necesidad.",
+      "oracion": "Señor, escucha a los pequeños, pobres y olvidados."
+    },
+    "70": {
+      "titulo": "La esperanza",
+      "referencia": "Baruc 3, 9-15",
+      "tema": "Buscar la sabiduría",
+      "reflexion": "Cuando buscamos respuestas, podemos volver a Dios y a su sabiduría.",
+      "oracion": "Señor, conduce nuestras búsquedas hacia la verdad."
+    },
+    "71": {
+      "titulo": "Una oración por Jerusalén",
+      "referencia": "Baruc 5, 1-9",
+      "tema": "Restauración",
+      "reflexion": "Dios puede transformar la tristeza en esperanza y abrir caminos de restauración.",
+      "oracion": "Señor, lleva consuelo y paz a los pueblos que sufren."
+    },
+    "72": {
+      "titulo": "La fidelidad en la persecución",
+      "referencia": "1 Macabeos 2, 49-64",
+      "tema": "Fidelidad",
+      "reflexion": "La fidelidad a nuestras convicciones puede exigir valentía, especialmente cuando encontramos oposición.",
+      "oracion": "Señor, dame fortaleza para permanecer fiel al bien."
+    },
+    "73": {
+      "titulo": "La resurrección",
+      "referencia": "2 Macabeos 7, 1-14",
+      "tema": "Esperanza eterna",
+      "reflexion": "La fe en la vida eterna sostiene la esperanza incluso ante el sufrimiento y la muerte.",
+      "oracion": "Señor, fortalece nuestra esperanza en la vida eterna."
+    },
+    "74": {
+      "titulo": "Dios no abandona",
+      "referencia": "Isaías 40, 1-11",
+      "tema": "Consuelo",
+      "reflexion": "Dios se acerca a quienes están cansados y necesitados de consuelo.",
+      "oracion": "Señor, consuela a quienes hoy necesitan sentir tu cercanía."
+    },
+    "75": {
+      "titulo": "No temas",
+      "referencia": "Isaías 41, 8-13",
+      "tema": "Confianza",
+      "reflexion": "La confianza en Dios puede devolvernos la fuerza cuando nos sentimos débiles.",
+      "oracion": "Señor, toma mi mano y ayúdame a no tener miedo."
+    },
+    "76": {
+      "titulo": "Una luz para las naciones",
+      "referencia": "Isaías 42, 1-9",
+      "tema": "Misión",
+      "reflexion": "La fe recibida también se convierte en una responsabilidad: llevar esperanza a otros.",
+      "oracion": "Señor, haz de mí una pequeña luz para quienes encuentre."
+    },
+    "77": {
+      "titulo": "Dios te conoce",
+      "referencia": "Isaías 43, 1-7",
+      "tema": "Identidad",
+      "reflexion": "Nuestra dignidad no depende de nuestros éxitos. Somos conocidos y amados por Dios.",
+      "oracion": "Señor, ayúdame a recordar cuánto valgo ante tus ojos."
+    },
+    "78": {
+      "titulo": "Algo nuevo",
+      "referencia": "Isaías 43, 16-21",
+      "tema": "Renovación",
+      "reflexion": "Dios puede abrir caminos nuevos donde nosotros solamente vemos obstáculos.",
+      "oracion": "Señor, dame ojos para reconocer los caminos nuevos que abres."
+    },
+    "79": {
+      "titulo": "El siervo sufriente",
+      "referencia": "Isaías 52, 13-53, 12",
+      "tema": "Entrega",
+      "reflexion": "La entrega generosa puede convertirse en fuente de vida para otros.",
+      "oracion": "Señor, enséñame a entregar mi vida con amor."
+    },
+    "80": {
+      "titulo": "El espíritu del Señor",
+      "referencia": "Isaías 61, 1-3",
+      "tema": "Buena noticia",
+      "reflexion": "La misión cristiana está llamada a llevar esperanza, consuelo y libertad a quienes sufren.",
+      "oracion": "Señor, envíame a llevar una palabra de esperanza."
+    },
+    "81": {
+      "titulo": "Una llamada personal",
+      "referencia": "Jeremías 1, 4-10",
+      "tema": "Vocación",
+      "reflexion": "Dios puede llamar a cualquier persona a colaborar en una misión de amor y servicio.",
+      "oracion": "Señor, muéstrame cuál es mi misión y dame valor para vivirla."
+    },
+    "82": {
+      "titulo": "Confiar en el corazón",
+      "referencia": "Jeremías 17, 5-10",
+      "tema": "Confianza",
+      "reflexion": "Nuestra seguridad más profunda no puede depender solamente de las circunstancias externas.",
+      "oracion": "Señor, fortalece mi confianza en ti."
+    },
+    "83": {
+      "titulo": "Un corazón nuevo",
+      "referencia": "Jeremías 31, 31-34",
+      "tema": "Nueva alianza",
+      "reflexion": "Dios desea transformar nuestro interior y escribir su ley de amor en nuestros corazones.",
+      "oracion": "Señor, transforma mi corazón y hazlo semejante al tuyo."
+    },
+    "84": {
+      "titulo": "Esperanza en medio de las ruinas",
+      "referencia": "Lamentaciones 3, 21-33",
+      "tema": "Esperanza",
+      "reflexion": "Incluso en medio de la tristeza podemos recordar que la misericordia de Dios no desaparece.",
+      "oracion": "Señor, renueva mi esperanza cuando todo parezca oscuro."
+    },
+    "85": {
+      "titulo": "Un corazón nuevo y un espíritu nuevo",
+      "referencia": "Ezequiel 36, 24-28",
+      "tema": "Conversión",
+      "reflexion": "La conversión no es solamente cambiar comportamientos, sino permitir que Dios transforme nuestro corazón.",
+      "oracion": "Señor, dame un corazón nuevo y un espíritu dispuesto a amarte."
+    },
+    "86": {
+      "titulo": "Los huesos secos",
+      "referencia": "Ezequiel 37, 1-14",
+      "tema": "Renacer",
+      "reflexion": "Dios puede devolver vida y esperanza incluso a aquello que parece completamente perdido.",
+      "oracion": "Señor, lleva tu vida a las situaciones que parecen sin esperanza."
+    },
+    "87": {
+      "titulo": "Fidelidad en la prueba",
+      "referencia": "Daniel 3, 8-25",
+      "tema": "Los jóvenes en el fuego",
+      "reflexion": "La fidelidad puede mantenerse incluso cuando las circunstancias son adversas.",
+      "oracion": "Señor, acompaña a quienes son perseguidos por causa de su fe."
+    },
+    "88": {
+      "titulo": "El Señor es compasivo",
+      "referencia": "Oseas 11, 1-9",
+      "tema": "Amor de Dios",
+      "reflexion": "La imagen de Dios que presenta Oseas es la de un Padre que continúa amando incluso cuando su pueblo se aleja.",
+      "oracion": "Padre, ayúdame a reconocer tu amor y volver siempre a ti."
+    },
+    "89": {
+      "titulo": "Convertirse de corazón",
+      "referencia": "Joel 2, 12-18",
+      "tema": "Conversión",
+      "reflexion": "La conversión comienza en el corazón y se expresa después en nuestras acciones.",
+      "oracion": "Señor, convierte mi corazón y ayúdame a vivir con sinceridad."
+    },
+    "90": {
+      "titulo": "Buscar la justicia",
+      "referencia": "Amós 5, 14-24",
+      "tema": "Justicia",
+      "reflexion": "La fe auténtica no puede permanecer indiferente ante la injusticia y el sufrimiento.",
+      "oracion": "Señor, hazme defensor de la dignidad y la justicia."
+    },
+    "91": {
+      "titulo": "La misericordia",
+      "referencia": "Jonás 3, 1-10",
+      "tema": "Conversión",
+      "reflexion": "Dios ofrece oportunidades para cambiar. Su misericordia supera nuestros límites.",
+      "oracion": "Señor, ayúdame a cambiar aquello que necesita ser transformado."
+    },
+    "92": {
+      "titulo": "Caminar humildemente",
+      "referencia": "Miqueas 6, 6-8",
+      "tema": "Vida cristiana",
+      "reflexion": "Buscar el bien, practicar la justicia y caminar humildemente con Dios resume una vida orientada hacia el amor.",
+      "oracion": "Señor, enséñame a caminar contigo con humildad."
+    },
+    "93": {
+      "titulo": "Una pequeña esperanza",
+      "referencia": "Zacarías 8, 1-8",
+      "tema": "Restauración",
+      "reflexion": "Dios puede convertir lugares de tristeza en espacios de vida y esperanza.",
+      "oracion": "Señor, transforma nuestras ciudades y familias con tu paz."
+    },
+    "94": {
+      "titulo": "El mensajero",
+      "referencia": "Malaquías 3, 1-4",
+      "tema": "Preparación",
+      "reflexion": "Preparar el corazón significa hacer espacio para Dios y limpiar aquello que nos impide amar.",
+      "oracion": "Señor, prepara mi corazón para recibirte."
+    },
+    "95": {
+      "titulo": "El anuncio",
+      "referencia": "Mateo 1, 18-25",
+      "tema": "José",
+      "reflexion": "José nos enseña que la fe también significa confiar y actuar incluso cuando no conocemos todos los detalles.",
+      "oracion": "San José, ayúdame a confiar en Dios y a servir con humildad."
+    },
+    "96": {
+      "titulo": "Nace Jesús",
+      "referencia": "Lucas 2, 1-20",
+      "tema": "Nacimiento de Jesús",
+      "reflexion": "Dios se acerca a nosotros de una manera sencilla. En Jesús descubrimos que el amor puede hacerse pequeño para encontrarnos.",
+      "oracion": "Jesús, nace también en mi corazón y enséñame a vivir con sencillez."
+    },
+    "97": {
+      "titulo": "Los primeros discípulos",
+      "referencia": "Juan 1, 35-51",
+      "tema": "Seguir a Jesús",
+      "reflexion": "El encuentro con Jesús genera una invitación a compartir lo que hemos descubierto.",
+      "oracion": "Jesús, ayúdame a conocerte y a llevar tu mensaje a otros."
+    },
+    "98": {
+      "titulo": "Las bodas de Caná",
+      "referencia": "Juan 2, 1-12",
+      "tema": "María intercede",
+      "reflexion": "María aparece atenta a una necesidad concreta. Su actitud nos enseña a mirar las necesidades de quienes nos rodean.",
+      "oracion": "María, enséñame a estar atento a quienes necesitan ayuda."
+    },
+    "99": {
+      "titulo": "Nacer de nuevo",
+      "referencia": "Juan 3, 1-21",
+      "tema": "Nicodemo",
+      "reflexion": "La vida espiritual siempre puede renovarse. Dios nos invita a comenzar de nuevo desde dentro.",
+      "oracion": "Señor, renueva mi corazón y hazme nacer a una vida nueva."
+    },
+    "100": {
+      "titulo": "Dios ama al mundo",
+      "referencia": "Juan 3, 14-21",
+      "tema": "Amor de Dios",
+      "reflexion": "El centro del mensaje cristiano es el amor de Dios que busca salvar y dar vida.",
+      "oracion": "Gracias, Señor, por tu amor. Ayúdame a compartirlo con los demás."
+    },
+    "101": {
+      "titulo": "Agua viva",
+      "referencia": "Juan 4, 5-26",
+      "tema": "La samaritana",
+      "reflexion": "Jesús conoce nuestra sed más profunda y nos ofrece un agua que no se agota.",
+      "oracion": "Jesús, sacia las sedes profundas de mi corazón."
+    },
+    "102": {
+      "titulo": "Levántate",
+      "referencia": "Juan 5, 1-18",
+      "tema": "Sanación",
+      "reflexion": "Jesús se acerca a quienes llevan mucho tiempo esperando una oportunidad para comenzar de nuevo.",
+      "oracion": "Señor, levanta a quienes se sienten vencidos por sus circunstancias."
+    },
+    "103": {
+      "titulo": "El pan de vida",
+      "referencia": "Juan 6, 22-40",
+      "tema": "Jesús alimenta",
+      "reflexion": "Nuestra vida necesita alimento material, pero también necesita sentido, esperanza y amor.",
+      "oracion": "Jesús, alimenta mi corazón con tu presencia."
+    },
+    "104": {
+      "titulo": "La luz del mundo",
+      "referencia": "Juan 8, 12-20",
+      "tema": "Luz",
+      "reflexion": "Seguir a Jesús significa permitir que su luz ilumine nuestras decisiones y relaciones.",
+      "oracion": "Jesús, ilumina mis pasos y aparta de mí toda oscuridad."
+    },
+    "105": {
+      "titulo": "La verdad libera",
+      "referencia": "Juan 8, 31-36",
+      "tema": "Libertad",
+      "reflexion": "La verdadera libertad nace cuando dejamos que la verdad transforme nuestra vida.",
+      "oracion": "Señor, ayúdame a vivir en la verdad y la libertad."
+    },
+    "106": {
+      "titulo": "El buen pastor",
+      "referencia": "Juan 10, 1-18",
+      "tema": "Jesús pastor",
+      "reflexion": "Jesús conoce a cada persona y ofrece una guía basada en el amor y el cuidado.",
+      "oracion": "Jesús, sé mi pastor y ayúdame a escuchar tu voz."
+    },
+    "107": {
+      "titulo": "Yo soy la resurrección",
+      "referencia": "Juan 11, 17-44",
+      "tema": "Lázaro",
+      "reflexion": "Frente a la muerte y al dolor, Jesús anuncia una esperanza que va más allá de lo visible.",
+      "oracion": "Señor, consuela a quienes lloran la pérdida de un ser querido."
+    },
+    "108": {
+      "titulo": "Servir como Jesús",
+      "referencia": "Juan 13, 1-17",
+      "tema": "Lavatorio de los pies",
+      "reflexion": "Jesús enseña que la grandeza cristiana se encuentra en el servicio humilde.",
+      "oracion": "Jesús, hazme servidor y no dueño de quienes me rodean."
+    },
+    "109": {
+      "titulo": "Un mandamiento nuevo",
+      "referencia": "Juan 13, 31-35",
+      "tema": "Amor",
+      "reflexion": "El amor cristiano no es solamente sentimiento: es una decisión concreta de cuidar al otro.",
+      "oracion": "Señor, enséñame a amar con hechos."
+    },
+    "110": {
+      "titulo": "No se turbe vuestro corazón",
+      "referencia": "Juan 14, 1-14",
+      "tema": "Confianza",
+      "reflexion": "Cuando el futuro nos preocupa, Jesús nos invita a mantener el corazón confiado.",
+      "oracion": "Jesús, dame paz cuando el futuro me preocupe."
+    },
+    "111": {
+      "titulo": "Permanecer unidos",
+      "referencia": "Juan 15, 1-11",
+      "tema": "La vid",
+      "reflexion": "La vida cristiana necesita permanecer conectada con Jesús, como los sarmientos permanecen unidos a la vid.",
+      "oracion": "Jesús, ayúdame a permanecer unido a ti."
+    },
+    "112": {
+      "titulo": "Amigos de Jesús",
+      "referencia": "Juan 15, 12-17",
+      "tema": "Amistad",
+      "reflexion": "Jesús no solamente nos llama servidores, sino amigos que conocen y comparten su misión.",
+      "oracion": "Jesús, gracias por llamarme amigo. Ayúdame a vivir a la altura de ese amor."
+    },
+    "113": {
+      "titulo": "El Espíritu Santo",
+      "referencia": "Juan 16, 5-15",
+      "tema": "Espíritu Santo",
+      "reflexion": "No caminamos solos. El Espíritu Santo continúa guiando y fortaleciendo a la Iglesia.",
+      "oracion": "Ven, Espíritu Santo, ilumina mi mente y fortalece mi corazón."
+    },
+    "114": {
+      "titulo": "La oración de Jesús",
+      "referencia": "Juan 17, 1-26",
+      "tema": "Unidad",
+      "reflexion": "Jesús ora por sus discípulos y por todos los que creerán. La unidad es parte esencial de su deseo.",
+      "oracion": "Señor, une a tu Iglesia y ayúdanos a superar nuestras divisiones."
+    },
+    "115": {
+      "titulo": "El amor hasta el extremo",
+      "referencia": "Juan 19, 16-37",
+      "tema": "La cruz",
+      "reflexion": "En la cruz contemplamos un amor que se entrega sin reservarse nada.",
+      "oracion": "Jesús crucificado, enséñame el camino del amor verdadero."
+    },
+    "116": {
+      "titulo": "Ha resucitado",
+      "referencia": "Juan 20, 1-18",
+      "tema": "Resurrección",
+      "reflexion": "La resurrección transforma el dolor en esperanza y anuncia que la muerte no tiene la última palabra.",
+      "oracion": "Jesús resucitado, renueva mi esperanza."
+    },
+    "117": {
+      "titulo": "Paz a vosotros",
+      "referencia": "Juan 20, 19-31",
+      "tema": "Paz y fe",
+      "reflexion": "Jesús resucitado entra en una comunidad llena de miedo y le ofrece paz.",
+      "oracion": "Señor, lleva tu paz a mi corazón y a nuestro mundo."
+    },
+    "118": {
+      "titulo": "Apacienta mis ovejas",
+      "referencia": "Juan 21, 15-19",
+      "tema": "Misión",
+      "reflexion": "Jesús confía una misión incluso a quienes han experimentado la fragilidad y el fracaso.",
+      "oracion": "Señor, transforma mis errores en oportunidades para servir."
+    },
+    "119": {
+      "titulo": "Ser testigos",
+      "referencia": "Hechos 1, 1-11",
+      "tema": "Ascensión",
+      "reflexion": "La fe recibida no está destinada a permanecer escondida. Somos llamados a ser testigos.",
+      "oracion": "Señor, hazme testigo de tu amor allí donde vivo."
+    },
+    "120": {
+      "titulo": "Pentecostés",
+      "referencia": "Hechos 2, 1-21",
+      "tema": "Espíritu Santo",
+      "reflexion": "El Espíritu transforma el miedo en valentía y reúne a personas diferentes en una misma esperanza.",
+      "oracion": "Ven, Espíritu Santo, y renueva la faz de la tierra."
+    },
+    "121": {
+      "titulo": "Una comunidad que comparte",
+      "referencia": "Hechos 2, 42-47",
+      "tema": "Primera comunidad",
+      "reflexion": "La primera comunidad cristiana se caracteriza por la oración, la fraternidad y la solidaridad.",
+      "oracion": "Señor, haz de nuestras comunidades lugares de fraternidad."
+    },
+    "122": {
+      "titulo": "Servir a los necesitados",
+      "referencia": "Hechos 6, 1-7",
+      "tema": "Servicio",
+      "reflexion": "La comunidad cristiana crece cuando organiza su vida para que nadie quede olvidado.",
+      "oracion": "Señor, ayúdame a descubrir a quienes necesitan ayuda."
+    },
+    "123": {
+      "titulo": "Una fe que cruza fronteras",
+      "referencia": "Hechos 8, 26-40",
+      "tema": "Evangelización",
+      "reflexion": "El Evangelio está destinado a todos. La misión comienza muchas veces con una conversación sencilla.",
+      "oracion": "Señor, dame oportunidades para compartir tu esperanza."
+    },
+    "124": {
+      "titulo": "La conversión de Pablo",
+      "referencia": "Hechos 9, 1-19",
+      "tema": "Conversión",
+      "reflexion": "Nadie está fuera del alcance de la gracia. Dios puede transformar incluso los caminos más equivocados.",
+      "oracion": "Señor, transforma mi vida allí donde todavía necesito cambiar."
+    },
+    "125": {
+      "titulo": "Dios no hace acepción",
+      "referencia": "Hechos 10, 1-48",
+      "tema": "Universalidad",
+      "reflexion": "La Iglesia está llamada a abrir sus puertas y reconocer la acción de Dios en todos los pueblos.",
+      "oracion": "Señor, libera mi corazón de todo prejuicio."
+    },
+    "126": {
+      "titulo": "La gracia sostiene",
+      "referencia": "Hechos 12, 1-17",
+      "tema": "Oración",
+      "reflexion": "La comunidad cristiana acompaña las dificultades de sus miembros mediante la oración.",
+      "oracion": "Señor, escucha nuestras oraciones por quienes sufren."
+    },
+    "127": {
+      "titulo": "La misión",
+      "referencia": "Hechos 13, 1-12",
+      "tema": "Evangelización",
+      "reflexion": "La misión cristiana comienza cuando una comunidad escucha al Espíritu y se dispone a servir.",
+      "oracion": "Señor, muéstrame dónde puedo servir."
+    },
+    "128": {
+      "titulo": "Una Iglesia abierta",
+      "referencia": "Hechos 15, 1-21",
+      "tema": "Discernimiento",
+      "reflexion": "La Iglesia necesita escuchar, dialogar y discernir para encontrar caminos de unidad.",
+      "oracion": "Señor, danos sabiduría para dialogar y buscar juntos la verdad."
+    },
+    "129": {
+      "titulo": "La alegría en la dificultad",
+      "referencia": "Hechos 16, 16-34",
+      "tema": "Pablo y Silas",
+      "reflexion": "Incluso en circunstancias difíciles, la esperanza puede mantener viva la alegría interior.",
+      "oracion": "Señor, sostén mi alegría cuando las circunstancias sean difíciles."
+    },
+    "130": {
+      "titulo": "Buscar juntos",
+      "referencia": "Hechos 17, 22-34",
+      "tema": "Pablo en Atenas",
+      "reflexion": "Hablar de Dios requiere respeto por las preguntas y búsquedas de cada persona.",
+      "oracion": "Señor, dame palabras humildes para hablar de mi fe."
+    },
+    "131": {
+      "titulo": "Una palabra que permanece",
+      "referencia": "Romanos 1, 16-17",
+      "tema": "Evangelio",
+      "reflexion": "El Evangelio continúa siendo una fuente de esperanza para todos los que lo reciben con fe.",
+      "oracion": "Señor, fortalece mi fe en tu Evangelio."
+    },
+    "132": {
+      "titulo": "Todos necesitamos misericordia",
+      "referencia": "Romanos 3, 21-26",
+      "tema": "Gracia",
+      "reflexion": "La salvación es un don. Nadie puede considerarse superior a los demás.",
+      "oracion": "Señor, hazme humilde ante tu misericordia."
+    },
+    "133": {
+      "titulo": "La fe de Abraham",
+      "referencia": "Romanos 4, 16-25",
+      "tema": "Fe",
+      "reflexion": "La fe de Abraham nos recuerda que podemos confiar en Dios incluso cuando las circunstancias parecen contradecir la esperanza.",
+      "oracion": "Señor, fortalece mi confianza en tus promesas."
+    },
+    "134": {
+      "titulo": "Paz con Dios",
+      "referencia": "Romanos 5, 1-11",
+      "tema": "Reconciliación",
+      "reflexion": "La fe nos conduce hacia una relación nueva con Dios marcada por la paz y la esperanza.",
+      "oracion": "Señor, llena mi corazón con tu paz."
+    },
+    "135": {
+      "titulo": "Una vida nueva",
+      "referencia": "Romanos 6, 1-14",
+      "tema": "Vida nueva",
+      "reflexion": "La vida cristiana es una invitación constante a dejar atrás aquello que destruye y elegir una vida nueva.",
+      "oracion": "Señor, ayúdame a dejar atrás mis viejos caminos."
+    },
+    "136": {
+      "titulo": "Nada nos separará",
+      "referencia": "Romanos 8, 31-39",
+      "tema": "Amor de Dios",
+      "reflexion": "El amor de Dios es más fuerte que nuestras dificultades, miedos y fragilidades.",
+      "oracion": "Señor, ayúdame a recordar que tu amor nunca me abandona."
+    },
+    "137": {
+      "titulo": "Un solo cuerpo",
+      "referencia": "Romanos 12, 1-8",
+      "tema": "Comunidad",
+      "reflexion": "Cada persona posee dones diferentes y todos pueden ponerse al servicio del bien común.",
+      "oracion": "Señor, ayúdame a poner mis dones al servicio de los demás."
+    },
+    "138": {
+      "titulo": "Vencer el mal con el bien",
+      "referencia": "Romanos 12, 9-21",
+      "tema": "Amor al enemigo",
+      "reflexion": "El cristiano está llamado a responder al mal con el bien y a no dejar que el odio gobierne el corazón.",
+      "oracion": "Señor, dame fuerza para responder con amor."
+    },
+    "139": {
+      "titulo": "La conciencia",
+      "referencia": "Romanos 14, 1-13",
+      "tema": "Respeto",
+      "reflexion": "No todo debe convertirse en motivo de división. La caridad exige respeto y comprensión.",
+      "oracion": "Señor, enséñame a respetar las diferencias."
+    },
+    "140": {
+      "titulo": "La esperanza de la Escritura",
+      "referencia": "Romanos 15, 1-7",
+      "tema": "Esperanza",
+      "reflexion": "La Escritura alimenta nuestra esperanza y nos ayuda a sostenernos mutuamente.",
+      "oracion": "Señor, hazme instrumento de esperanza para otros."
+    },
+    "141": {
+      "titulo": "El amor es paciente",
+      "referencia": "1 Corintios 13, 1-13",
+      "tema": "Caridad",
+      "reflexion": "El amor verdadero se manifiesta en paciencia, servicio, humildad y perseverancia.",
+      "oracion": "Señor, enséñame a amar con paciencia y generosidad."
+    },
+    "142": {
+      "titulo": "Diversidad de dones",
+      "referencia": "1 Corintios 12, 4-27",
+      "tema": "Dones",
+      "reflexion": "La diversidad no tiene por qué dividirnos. Cada don puede enriquecer a toda la comunidad.",
+      "oracion": "Señor, ayúdanos a valorar los dones de cada persona."
+    },
+    "143": {
+      "titulo": "La resurrección de Cristo",
+      "referencia": "1 Corintios 15, 1-22",
+      "tema": "Resurrección",
+      "reflexion": "La resurrección es el fundamento de la esperanza cristiana.",
+      "oracion": "Señor resucitado, fortalece nuestra esperanza."
+    },
+    "144": {
+      "titulo": "Una nueva creación",
+      "referencia": "2 Corintios 5, 14-21",
+      "tema": "Reconciliación",
+      "reflexion": "En Cristo somos llamados a vivir reconciliados con Dios y con nuestros hermanos.",
+      "oracion": "Señor, hazme instrumento de reconciliación."
+    },
+    "145": {
+      "titulo": "Mi gracia te basta",
+      "referencia": "2 Corintios 12, 7-10",
+      "tema": "Fragilidad",
+      "reflexion": "Nuestra debilidad no impide que Dios actúe. También nuestras limitaciones pueden convertirse en lugares de gracia.",
+      "oracion": "Señor, sosténme en mis debilidades."
+    },
+    "146": {
+      "titulo": "Libres para amar",
+      "referencia": "Gálatas 5, 1-14",
+      "tema": "Libertad",
+      "reflexion": "La libertad cristiana no consiste en hacer cualquier cosa, sino en elegir el amor.",
+      "oracion": "Señor, hazme libre para amar y servir."
+    },
+    "147": {
+      "titulo": "Los frutos del Espíritu",
+      "referencia": "Gálatas 5, 16-26",
+      "tema": "Vida espiritual",
+      "reflexion": "El Espíritu produce frutos concretos en nuestra vida: amor, alegría, paz, paciencia y bondad.",
+      "oracion": "Espíritu Santo, haz crecer tus frutos en mi corazón."
+    },
+    "148": {
+      "titulo": "Llevar las cargas",
+      "referencia": "Gálatas 6, 1-10",
+      "tema": "Fraternidad",
+      "reflexion": "Nadie debería caminar solo. Ayudar a cargar las dificultades de otros es una expresión de amor.",
+      "oracion": "Señor, muéstrame a quién puedo ayudar hoy."
+    },
+    "149": {
+      "titulo": "Una sola familia",
+      "referencia": "Efesios 2, 11-22",
+      "tema": "Unidad",
+      "reflexion": "Cristo derriba muros y crea un pueblo nuevo basado en la reconciliación.",
+      "oracion": "Señor, derriba los muros que nos separan."
+    },
+    "150": {
+      "titulo": "La armadura de Dios",
+      "referencia": "Efesios 6, 10-20",
+      "tema": "Fortaleza espiritual",
+      "reflexion": "La vida espiritual requiere fortaleza interior, oración y perseverancia.",
+      "oracion": "Señor, fortalece mi espíritu ante las dificultades."
+    },
+    "151": {
+      "titulo": "La alegría cristiana",
+      "referencia": "Filipenses 4, 4-9",
+      "tema": "Alegría y paz",
+      "reflexion": "La alegría cristiana no depende completamente de las circunstancias, sino de la confianza en Dios.",
+      "oracion": "Señor, llena mi corazón de alegría y paz."
+    },
+    "152": {
+      "titulo": "Tener los mismos sentimientos de Cristo",
+      "referencia": "Filipenses 2, 1-11",
+      "tema": "Humildad",
+      "reflexion": "Jesús nos muestra que la verdadera grandeza se encuentra en servir y entregarse.",
+      "oracion": "Jesús, dame un corazón humilde como el tuyo."
+    },
+    "153": {
+      "titulo": "Cristo es el centro",
+      "referencia": "Colosenses 1, 15-20",
+      "tema": "Cristo",
+      "reflexion": "Toda la vida cristiana encuentra su centro en la persona de Jesús.",
+      "oracion": "Jesús, sé el centro de mi vida."
+    },
+    "154": {
+      "titulo": "Revestirse de amor",
+      "referencia": "Colosenses 3, 12-17",
+      "tema": "Caridad",
+      "reflexion": "La compasión, humildad, paciencia y perdón deben formar parte de nuestra vida cotidiana.",
+      "oracion": "Señor, revísteme de compasión y amor."
+    },
+    "155": {
+      "titulo": "Orar siempre",
+      "referencia": "1 Tesalonicenses 5, 12-24",
+      "tema": "Oración",
+      "reflexion": "La oración no necesita ser complicada. Puede convertirse en una actitud permanente del corazón.",
+      "oracion": "Señor, permanece conmigo durante todo este día."
+    },
+    "156": {
+      "titulo": "La Palabra recibida",
+      "referencia": "1 Tesalonicenses 2, 1-13",
+      "tema": "Evangelización",
+      "reflexion": "La Palabra de Dios puede transformar nuestra vida cuando la recibimos con un corazón abierto.",
+      "oracion": "Señor, abre mi corazón a tu Palabra."
+    },
+    "157": {
+      "titulo": "No cansarse de hacer el bien",
+      "referencia": "2 Tesalonicenses 3, 6-13",
+      "tema": "Perseverancia",
+      "reflexion": "El bien cotidiano puede parecer pequeño, pero sostenido en el tiempo transforma vidas.",
+      "oracion": "Señor, dame perseverancia para seguir haciendo el bien."
+    },
+    "158": {
+      "titulo": "Un buen combate",
+      "referencia": "1 Timoteo 6, 11-16",
+      "tema": "Vida cristiana",
+      "reflexion": "La vida cristiana requiere buscar la justicia, la fe, el amor y la perseverancia.",
+      "oracion": "Señor, ayúdame a permanecer fiel hasta el final."
+    },
+    "159": {
+      "titulo": "Dios nos da un espíritu de fortaleza",
+      "referencia": "2 Timoteo 1, 6-14",
+      "tema": "Valentía",
+      "reflexion": "No estamos llamados a vivir dominados por el miedo, sino sostenidos por la fortaleza y el amor.",
+      "oracion": "Señor, fortalece mi corazón y aleja de mí el miedo."
+    },
+    "160": {
+      "titulo": "La Escritura inspira",
+      "referencia": "2 Timoteo 3, 14-17",
+      "tema": "Biblia",
+      "reflexion": "La Escritura puede orientar, enseñar y formar nuestra vida cuando la leemos con atención.",
+      "oracion": "Señor, enséñame a escuchar tu Palabra cada día."
+    },
+    "161": {
+      "titulo": "La esperanza bienaventurada",
+      "referencia": "Tito 2, 11-14",
+      "tema": "Esperanza",
+      "reflexion": "La gracia de Dios nos enseña a vivir de una manera nueva mientras esperamos con esperanza.",
+      "oracion": "Señor, conserva viva mi esperanza."
+    },
+    "162": {
+      "titulo": "Recibir al hermano",
+      "referencia": "Filemón 1, 4-21",
+      "tema": "Reconciliación",
+      "reflexion": "El Evangelio puede transformar relaciones rotas y abrir caminos de fraternidad.",
+      "oracion": "Señor, ayúdame a reconciliarme con quienes están alejados de mí."
+    },
+    "163": {
+      "titulo": "Acercarnos a Dios",
+      "referencia": "Hebreos 4, 14-16",
+      "tema": "Jesús sacerdote",
+      "reflexion": "Podemos acercarnos a Dios con confianza porque Jesús conoce nuestras debilidades.",
+      "oracion": "Señor, recibe nuestras necesidades y danos tu gracia."
+    },
+    "164": {
+      "titulo": "La fe",
+      "referencia": "Hebreos 11, 1-16",
+      "tema": "Testigos de la fe",
+      "reflexion": "La fe permite caminar hacia lo que todavía no vemos con la certeza de que Dios acompaña.",
+      "oracion": "Señor, aumenta mi fe."
+    },
+    "165": {
+      "titulo": "Correr con perseverancia",
+      "referencia": "Hebreos 12, 1-13",
+      "tema": "Perseverancia",
+      "reflexion": "Nuestra vida es un camino que requiere paciencia y perseverancia.",
+      "oracion": "Señor, dame fuerza para no abandonar el camino."
+    },
+    "166": {
+      "titulo": "La fe se demuestra con obras",
+      "referencia": "Santiago 2, 14-26",
+      "tema": "Fe y obras",
+      "reflexion": "La fe auténtica se expresa en acciones concretas de amor.",
+      "oracion": "Señor, que mi fe pueda verse en mis obras."
+    },
+    "167": {
+      "titulo": "Dominar la lengua",
+      "referencia": "Santiago 3, 1-12",
+      "tema": "Palabras",
+      "reflexion": "Nuestras palabras pueden construir o destruir. Por eso debemos aprender a hablar con sabiduría.",
+      "oracion": "Señor, pon bondad en mis palabras."
+    },
+    "168": {
+      "titulo": "Acercarse a Dios",
+      "referencia": "Santiago 4, 1-10",
+      "tema": "Humildad",
+      "reflexion": "La humildad abre espacio para que Dios transforme nuestro corazón.",
+      "oracion": "Señor, dame un corazón humilde."
+    },
+    "169": {
+      "titulo": "Echar las preocupaciones sobre Dios",
+      "referencia": "1 Pedro 5, 5-11",
+      "tema": "Confianza",
+      "reflexion": "Podemos entregar nuestras preocupaciones a Dios y confiar en que su gracia nos sostiene.",
+      "oracion": "Señor, recibe mis preocupaciones y dame tu paz."
+    },
+    "170": {
+      "titulo": "Una esperanza viva",
+      "referencia": "1 Pedro 1, 3-9",
+      "tema": "Esperanza",
+      "reflexion": "La esperanza cristiana nace de la resurrección y puede sostenernos incluso en medio de las pruebas.",
+      "oracion": "Señor resucitado, mantén viva mi esperanza."
+    },
+    "171": {
+      "titulo": "Dios es luz",
+      "referencia": "1 Juan 1, 5-10",
+      "tema": "Luz",
+      "reflexion": "Caminar en la luz significa vivir con sinceridad y permitir que Dios transforme nuestras sombras.",
+      "oracion": "Señor, ilumina aquello que todavía necesita cambiar en mí."
+    },
+    "172": {
+      "titulo": "Dios es amor",
+      "referencia": "1 Juan 4, 7-21",
+      "tema": "Amor",
+      "reflexion": "El amor cristiano tiene su fuente en Dios. Quien ama participa de ese misterio.",
+      "oracion": "Señor, hazme instrumento de tu amor."
+    },
+    "173": {
+      "titulo": "La victoria de la fe",
+      "referencia": "1 Juan 5, 1-5",
+      "tema": "Fe",
+      "reflexion": "La fe nos permite afrontar las dificultades con una esperanza que no depende de las circunstancias.",
+      "oracion": "Señor, fortalece mi fe."
+    },
+    "174": {
+      "titulo": "La verdad y el amor",
+      "referencia": "2 Juan 1, 4-6",
+      "tema": "Amor y verdad",
+      "reflexion": "La verdad cristiana nunca debería separarse de la caridad.",
+      "oracion": "Señor, ayúdame a vivir la verdad con amor."
+    },
+    "175": {
+      "titulo": "Servir a los demás",
+      "referencia": "3 Juan 1, 5-8",
+      "tema": "Hospitalidad",
+      "reflexion": "Acoger y ayudar a quienes sirven al bien es una manera concreta de colaborar con el Evangelio.",
+      "oracion": "Señor, hazme generoso con quienes necesitan apoyo."
+    },
+    "176": {
+      "titulo": "La esperanza futura",
+      "referencia": "Apocalipsis 21, 1-7",
+      "tema": "Cielo nuevo y tierra nueva",
+      "reflexion": "La esperanza cristiana mira hacia la renovación definitiva de toda la creación.",
+      "oracion": "Señor, mantén nuestros ojos puestos en la esperanza eterna."
+    },
+    "177": {
+      "titulo": "Dios enjugará las lágrimas",
+      "referencia": "Apocalipsis 21, 1-5",
+      "tema": "Consuelo",
+      "reflexion": "La promesa de Dios alcanza también nuestras lágrimas: el dolor no tendrá la última palabra.",
+      "oracion": "Señor, consuela a todos los que lloran."
+    },
+    "178": {
+      "titulo": "Ven, Señor Jesús",
+      "referencia": "Apocalipsis 22, 12-21",
+      "tema": "Esperanza",
+      "reflexion": "La vida cristiana permanece abierta a la esperanza del encuentro definitivo con Cristo.",
+      "oracion": "Ven, Señor Jesús, y permanece cerca de nosotros."
+    },
+    "179": {
+      "titulo": "Bienaventurados los pobres",
+      "referencia": "Mateo 5, 1-12",
+      "tema": "Bienaventuranzas",
+      "reflexion": "Jesús presenta una felicidad diferente: la que nace de confiar en Dios y vivir desde el amor.",
+      "oracion": "Jesús, enséñame el camino de las bienaventuranzas."
+    },
+    "180": {
+      "titulo": "Sal de la tierra",
+      "referencia": "Mateo 5, 13-16",
+      "tema": "Testimonio",
+      "reflexion": "Nuestra vida puede ser una pequeña luz para otros cuando vivimos con coherencia.",
+      "oracion": "Señor, haz que mi vida sea luz para quienes me rodean."
+    },
+    "181": {
+      "titulo": "Amar a los enemigos",
+      "referencia": "Mateo 5, 38-48",
+      "tema": "Amor",
+      "reflexion": "Jesús nos invita a superar la lógica de la venganza mediante un amor que busca el bien.",
+      "oracion": "Señor, ayúdame a responder al mal con el bien."
+    },
+    "182": {
+      "titulo": "La oración del Padre Nuestro",
+      "referencia": "Mateo 6, 5-15",
+      "tema": "Oración",
+      "reflexion": "Jesús nos enseña a dirigirnos a Dios como Padre y a poner nuestra vida en sus manos.",
+      "oracion": "Padre nuestro, enséñanos a vivir como verdaderos hijos tuyos."
+    },
+    "183": {
+      "titulo": "No preocuparse por mañana",
+      "referencia": "Mateo 6, 25-34",
+      "tema": "Confianza",
+      "reflexion": "La preocupación por el futuro puede robarnos el presente. Jesús nos invita a vivir cada día con confianza.",
+      "oracion": "Señor, ayúdame a vivir plenamente el día que me regalas."
+    },
+    "184": {
+      "titulo": "Pedir, buscar y llamar",
+      "referencia": "Mateo 7, 7-12",
+      "tema": "Oración",
+      "reflexion": "Jesús nos anima a presentar nuestras necesidades ante Dios con confianza.",
+      "oracion": "Señor, escucha mis peticiones y enséñame a confiar."
+    },
+    "185": {
+      "titulo": "La casa sobre roca",
+      "referencia": "Mateo 7, 24-27",
+      "tema": "Fundamentos",
+      "reflexion": "Una vida firme necesita fundamentos sólidos. La Palabra escuchada debe convertirse en acción.",
+      "oracion": "Señor, construye mi vida sobre tu verdad."
+    },
+    "186": {
+      "titulo": "Jesús sana",
+      "referencia": "Mateo 8, 1-17",
+      "tema": "Compasión",
+      "reflexion": "Jesús se acerca a quienes sufren y muestra que la compasión forma parte esencial del Reino.",
+      "oracion": "Jesús, enséñame a acercarme al sufrimiento de los demás."
+    },
+    "187": {
+      "titulo": "Ven y sígueme",
+      "referencia": "Mateo 9, 9-13",
+      "tema": "Vocación",
+      "reflexion": "Jesús llama a personas imperfectas y les ofrece una nueva misión.",
+      "oracion": "Señor, ayúdame a responder cuando me llames."
+    },
+    "188": {
+      "titulo": "La mies es mucha",
+      "referencia": "Mateo 9, 35-38",
+      "tema": "Misión",
+      "reflexion": "El mundo necesita personas capaces de llevar consuelo, verdad y esperanza.",
+      "oracion": "Señor, envía trabajadores a tu mies y hazme disponible para servir."
+    },
+    "189": {
+      "titulo": "No tengan miedo",
+      "referencia": "Mateo 10, 26-33",
+      "tema": "Valentía",
+      "reflexion": "La fe puede sostenernos cuando sentimos temor de dar testimonio.",
+      "oracion": "Señor, dame valentía para vivir mi fe con humildad."
+    },
+    "190": {
+      "titulo": "Venid a mí",
+      "referencia": "Mateo 11, 28-30",
+      "tema": "Descanso",
+      "reflexion": "Jesús invita a quienes están cansados a encontrar descanso en su presencia.",
+      "oracion": "Jesús, recibe mis cansancios y dame tu paz."
+    },
+    "191": {
+      "titulo": "El sembrador",
+      "referencia": "Mateo 13, 1-23",
+      "tema": "Palabra de Dios",
+      "reflexion": "La Palabra necesita un corazón disponible para poder crecer y dar fruto.",
+      "oracion": "Señor, prepara mi corazón para recibir tu Palabra."
+    },
+    "192": {
+      "titulo": "El trigo y la cizaña",
+      "referencia": "Mateo 13, 24-30",
+      "tema": "Paciencia",
+      "reflexion": "No todo se resuelve inmediatamente. Dios nos enseña a tener paciencia y a confiar en su justicia.",
+      "oracion": "Señor, dame paciencia conmigo mismo y con los demás."
+    },
+    "193": {
+      "titulo": "El tesoro escondido",
+      "referencia": "Mateo 13, 44-46",
+      "tema": "Reino de Dios",
+      "reflexion": "Encontrar el Reino de Dios puede transformar nuestras prioridades y nuestra manera de vivir.",
+      "oracion": "Señor, ayúdame a reconocer el verdadero tesoro."
+    },
+    "194": {
+      "titulo": "Caminar sobre las aguas",
+      "referencia": "Mateo 14, 22-33",
+      "tema": "Fe",
+      "reflexion": "Cuando miramos solamente las dificultades podemos hundirnos en el miedo. La fe vuelve nuestra mirada hacia Jesús.",
+      "oracion": "Jesús, aumenta mi fe cuando las dificultades me asusten."
+    },
+    "195": {
+      "titulo": "El corazón",
+      "referencia": "Mateo 15, 1-20",
+      "tema": "Pureza interior",
+      "reflexion": "Jesús nos recuerda que la transformación verdadera comienza en el interior.",
+      "oracion": "Señor, purifica mi corazón."
+    },
+    "196": {
+      "titulo": "Tú eres el Mesías",
+      "referencia": "Mateo 16, 13-20",
+      "tema": "Identidad de Jesús",
+      "reflexion": "La pregunta de Jesús sigue siendo personal: ¿quién es Él para nosotros?",
+      "oracion": "Jesús, ayúdame a conocerte cada día más."
+    },
+    "197": {
+      "titulo": "Tomar la cruz",
+      "referencia": "Mateo 16, 21-27",
+      "tema": "Seguimiento",
+      "reflexion": "Seguir a Jesús implica aprender a entregar la vida por amor.",
+      "oracion": "Señor, dame fuerza para llevar mis cruces con esperanza."
+    },
+    "198": {
+      "titulo": "La transfiguración",
+      "referencia": "Mateo 17, 1-9",
+      "tema": "Gloria",
+      "reflexion": "Los momentos de luz pueden ayudarnos a atravesar los momentos difíciles con esperanza.",
+      "oracion": "Señor, ilumina mi camino cuando atraviese oscuridad."
+    },
+    "199": {
+      "titulo": "El más grande",
+      "referencia": "Mateo 18, 1-5",
+      "tema": "Humildad",
+      "reflexion": "Jesús pone en el centro a quienes son pequeños y nos enseña a vivir con humildad.",
+      "oracion": "Señor, dame un corazón sencillo."
+    },
+    "200": {
+      "titulo": "Perdonar siempre",
+      "referencia": "Mateo 18, 21-35",
+      "tema": "Perdón",
+      "reflexion": "El perdón recibido de Dios nos llama a ofrecer también misericordia a los demás.",
+      "oracion": "Señor, enséñame a perdonar como tú me perdonas."
+    },
+    "201": {
+      "titulo": "El joven rico",
+      "referencia": "Mateo 19, 16-30",
+      "tema": "Desapego",
+      "reflexion": "Seguir a Jesús requiere revisar aquello a lo que estamos demasiado aferrados.",
+      "oracion": "Señor, libera mi corazón de todo apego que me aleje de ti."
+    },
+    "202": {
+      "titulo": "El primero será servidor",
+      "referencia": "Mateo 20, 20-28",
+      "tema": "Servicio",
+      "reflexion": "La verdadera grandeza cristiana consiste en servir.",
+      "oracion": "Jesús, enséñame a servir sin buscar reconocimiento."
+    },
+    "203": {
+      "titulo": "Jesús y Zaqueo",
+      "referencia": "Lucas 19, 1-10",
+      "tema": "Conversión",
+      "reflexion": "El encuentro con Jesús puede despertar un deseo profundo de cambiar y reparar el daño causado.",
+      "oracion": "Señor, transforma aquello que necesita cambiar en mi vida."
+    },
+    "204": {
+      "titulo": "El buen samaritano",
+      "referencia": "Lucas 10, 25-37",
+      "tema": "Compasión",
+      "reflexion": "El prójimo es quien necesita de nosotros. El amor comienza cuando dejamos de pasar de largo.",
+      "oracion": "Señor, dame ojos para ver al herido que encuentro en mi camino."
+    },
+    "205": {
+      "titulo": "Marta y María",
+      "referencia": "Lucas 10, 38-42",
+      "tema": "Escucha",
+      "reflexion": "En medio de nuestras muchas tareas necesitamos detenernos para escuchar a Jesús.",
+      "oracion": "Señor, ayúdame a encontrar momentos de silencio contigo."
+    },
+    "206": {
+      "titulo": "El amigo insistente",
+      "referencia": "Lucas 11, 1-13",
+      "tema": "Oración perseverante",
+      "reflexion": "Jesús nos invita a perseverar en la oración y a confiar en la bondad del Padre.",
+      "oracion": "Padre, enséñame a perseverar en la oración."
+    },
+    "207": {
+      "titulo": "El hijo pródigo",
+      "referencia": "Lucas 15, 11-32",
+      "tema": "Misericordia",
+      "reflexion": "El Padre espera, recibe y restaura. Su misericordia nos invita también a abandonar el juicio.",
+      "oracion": "Padre misericordioso, ayúdame a volver a ti y a recibir a los demás."
+    },
+    "208": {
+      "titulo": "La oveja perdida",
+      "referencia": "Lucas 15, 1-7",
+      "tema": "Búsqueda",
+      "reflexion": "Dios no se desentiende de quien se aleja. Su amor busca, espera y acoge.",
+      "oracion": "Señor, busca a quienes están lejos de ti y llévalos de regreso."
+    },
+    "209": {
+      "titulo": "El rico y Lázaro",
+      "referencia": "Lucas 16, 19-31",
+      "tema": "Solidaridad",
+      "reflexion": "La indiferencia ante el sufrimiento de otros puede cerrar nuestro corazón al amor.",
+      "oracion": "Señor, no permitas que pase indiferente ante quien necesita ayuda."
+    },
+    "210": {
+      "titulo": "Los diez leprosos",
+      "referencia": "Lucas 17, 11-19",
+      "tema": "Gratitud",
+      "reflexion": "Reconocer los regalos recibidos transforma nuestra mirada y alimenta la gratitud.",
+      "oracion": "Gracias, Señor, por todo lo que haces en mi vida."
+    },
+    "211": {
+      "titulo": "El fariseo y el publicano",
+      "referencia": "Lucas 18, 9-14",
+      "tema": "Humildad",
+      "reflexion": "Dios mira el corazón humilde que reconoce su necesidad de misericordia.",
+      "oracion": "Señor, ten misericordia de mí y hazme humilde."
+    },
+    "212": {
+      "titulo": "La entrada en Jerusalén",
+      "referencia": "Lucas 19, 28-40",
+      "tema": "Jesús Rey",
+      "reflexion": "Jesús entra en Jerusalén no como un poderoso, sino como un rey humilde.",
+      "oracion": "Jesús, reina en mi corazón con humildad y amor."
+    },
+    "213": {
+      "titulo": "Padre, perdónalos",
+      "referencia": "Lucas 23, 33-49",
+      "tema": "Perdón",
+      "reflexion": "Desde la cruz, Jesús responde al sufrimiento con perdón. Es una de las expresiones más profundas del amor cristiano.",
+      "oracion": "Jesús, enséñame a perdonar incluso cuando me cueste."
+    },
+    "214": {
+      "titulo": "Los discípulos de Emaús",
+      "referencia": "Lucas 24, 13-35",
+      "tema": "Caminar con Jesús",
+      "reflexion": "Jesús se acerca a quienes están decepcionados y vuelve a encender su esperanza.",
+      "oracion": "Señor, camina conmigo cuando pierda la esperanza."
+    },
+    "215": {
+      "titulo": "Paz en el corazón",
+      "referencia": "Lucas 24, 36-49",
+      "tema": "Resurrección",
+      "reflexion": "El Resucitado entra en medio del miedo y anuncia paz.",
+      "oracion": "Jesús, lleva tu paz a mi corazón."
+    },
+    "216": {
+      "titulo": "La oración de María",
+      "referencia": "Lucas 1, 26-38",
+      "tema": "Anunciación",
+      "reflexion": "María responde con confianza a una llamada que cambia su vida.",
+      "oracion": "María, enséñame a decir sí a Dios."
+    },
+    "217": {
+      "titulo": "El Magníficat",
+      "referencia": "Lucas 1, 46-55",
+      "tema": "Alabanza",
+      "reflexion": "María reconoce la grandeza de Dios y canta su misericordia.",
+      "oracion": "María, enséñame a agradecer y alabar a Dios."
+    },
+    "218": {
+      "titulo": "María al pie de la cruz",
+      "referencia": "Juan 19, 25-27",
+      "tema": "Fidelidad",
+      "reflexion": "María permanece junto a Jesús incluso en el momento más doloroso.",
+      "oracion": "María, acompaña a quienes sufren y enséñanos a permanecer fieles."
+    },
+    "219": {
+      "titulo": "La mujer que unge a Jesús",
+      "referencia": "Lucas 7, 36-50",
+      "tema": "Amor y perdón",
+      "reflexion": "Quien experimenta la misericordia puede responder con un amor profundo y agradecido.",
+      "oracion": "Señor, gracias por tu perdón. Hazme capaz de amar más."
+    },
+    "220": {
+      "titulo": "El publicano Zaqueo",
+      "referencia": "Lucas 19, 1-10",
+      "tema": "Cambio de vida",
+      "reflexion": "El encuentro con Jesús no deja a Zaqueo igual. El amor recibido lo impulsa a reparar y compartir.",
+      "oracion": "Señor, transforma mi vida para que mis acciones reflejen tu amor."
+    },
+    "221": {
+      "titulo": "Jesús y los niños",
+      "referencia": "Marcos 10, 13-16",
+      "tema": "Sencillez",
+      "reflexion": "Jesús pone a los niños en el centro y nos invita a recibir el Reino con sencillez.",
+      "oracion": "Señor, dame un corazón sencillo y confiado."
+    },
+    "222": {
+      "titulo": "El ciego Bartimeo",
+      "referencia": "Marcos 10, 46-52",
+      "tema": "Fe",
+      "reflexion": "Bartimeo no deja de llamar a Jesús. Su perseverancia se convierte en expresión de fe.",
+      "oracion": "Jesús, abre mis ojos para reconocer tu presencia."
+    },
+    "223": {
+      "titulo": "La multiplicación de los panes",
+      "referencia": "Marcos 6, 30-44",
+      "tema": "Compartir",
+      "reflexion": "Jesús toma lo poco que sus discípulos tienen y lo convierte en alimento para muchos.",
+      "oracion": "Señor, enséñame a compartir lo que tengo."
+    },
+    "224": {
+      "titulo": "La semilla que crece",
+      "referencia": "Marcos 4, 26-34",
+      "tema": "Paciencia",
+      "reflexion": "No siempre vemos inmediatamente los frutos de nuestras acciones. Dios trabaja también en silencio.",
+      "oracion": "Señor, dame paciencia para esperar los frutos."
+    },
+    "225": {
+      "titulo": "Jesús calma la tormenta",
+      "referencia": "Marcos 4, 35-41",
+      "tema": "Confianza",
+      "reflexion": "Las tormentas de la vida pueden despertar miedo, pero Jesús permanece con nosotros.",
+      "oracion": "Señor, quédate conmigo en las tormentas de mi vida."
+    },
+    "226": {
+      "titulo": "El corazón misericordioso",
+      "referencia": "Lucas 6, 27-36",
+      "tema": "Misericordia",
+      "reflexion": "Jesús lleva el amor hasta el punto de pedirnos que amemos incluso a quienes nos hacen daño.",
+      "oracion": "Señor, haz mi corazón semejante al tuyo."
+    },
+    "227": {
+      "titulo": "No juzgar",
+      "referencia": "Lucas 6, 36-42",
+      "tema": "Comprensión",
+      "reflexion": "Antes de señalar las faltas ajenas, estamos llamados a mirar nuestro propio corazón.",
+      "oracion": "Señor, líbrame de juzgar injustamente a los demás."
+    },
+    "228": {
+      "titulo": "El árbol y sus frutos",
+      "referencia": "Lucas 6, 43-49",
+      "tema": "Coherencia",
+      "reflexion": "Nuestra vida termina mostrando aquello que cultivamos en el corazón.",
+      "oracion": "Señor, haz que mis frutos sean frutos de amor."
+    },
+    "229": {
+      "titulo": "La fe del centurión",
+      "referencia": "Mateo 8, 5-13",
+      "tema": "Confianza",
+      "reflexion": "El centurión confía en la palabra de Jesús. Su fe nace de reconocer una autoridad basada en el amor.",
+      "oracion": "Señor, aumenta mi confianza en tu palabra."
+    },
+    "230": {
+      "titulo": "La mujer cananea",
+      "referencia": "Mateo 15, 21-28",
+      "tema": "Perseverancia",
+      "reflexion": "La mujer cananea persevera en su petición. Su fe nos enseña a no abandonar la esperanza.",
+      "oracion": "Señor, dame perseverancia cuando mis oraciones parezcan tardar."
+    },
+    "231": {
+      "titulo": "El Reino de Dios está cerca",
+      "referencia": "Marcos 1, 14-20",
+      "tema": "Conversión",
+      "reflexion": "El anuncio de Jesús invita a cambiar la mirada y abrirse a una vida nueva.",
+      "oracion": "Señor, convierte mi corazón y hazme discípulo tuyo."
+    },
+    "232": {
+      "titulo": "La autoridad de Jesús",
+      "referencia": "Marcos 1, 21-28",
+      "tema": "Jesús libera",
+      "reflexion": "Jesús se acerca a las personas heridas y les devuelve dignidad y libertad.",
+      "oracion": "Señor, libera mi corazón de todo aquello que me esclaviza."
+    },
+    "233": {
+      "titulo": "La suegra de Pedro",
+      "referencia": "Marcos 1, 29-39",
+      "tema": "Servicio",
+      "reflexion": "Después de ser sanada, ella se pone a servir. El encuentro con Jesús nos mueve a servir.",
+      "oracion": "Señor, convierte mis dones en servicio."
+    },
+    "234": {
+      "titulo": "El leproso",
+      "referencia": "Marcos 1, 40-45",
+      "tema": "Compasión",
+      "reflexion": "Jesús no evita al marginado. Se acerca y restaura su dignidad.",
+      "oracion": "Señor, dame valor para acercarme a quienes son excluidos."
+    },
+    "235": {
+      "titulo": "El paralítico",
+      "referencia": "Marcos 2, 1-12",
+      "tema": "Fe comunitaria",
+      "reflexion": "Los amigos del paralítico nos enseñan que ayudar a otro a acercarse a Jesús es una obra de amor.",
+      "oracion": "Señor, ayúdame a llevar esperanza a mis amigos."
+    },
+    "236": {
+      "titulo": "El mandamiento más importante",
+      "referencia": "Marcos 12, 28-34",
+      "tema": "Amor",
+      "reflexion": "Amar a Dios y al prójimo es el corazón de la vida cristiana.",
+      "oracion": "Señor, enséñame a amar con todo mi corazón."
+    },
+    "237": {
+      "titulo": "La viuda generosa",
+      "referencia": "Marcos 12, 41-44",
+      "tema": "Generosidad",
+      "reflexion": "Dios mira el corazón y no solamente la cantidad de lo que damos.",
+      "oracion": "Señor, hazme generoso incluso cuando tenga poco."
+    },
+    "238": {
+      "titulo": "Vigilar y esperar",
+      "referencia": "Marcos 13, 33-37",
+      "tema": "Vigilancia",
+      "reflexion": "Vivir atentos significa reconocer que cada día puede ser una oportunidad para amar.",
+      "oracion": "Señor, mantén despierto mi corazón."
+    },
+    "239": {
+      "titulo": "El servicio humilde",
+      "referencia": "Juan 13, 1-15",
+      "tema": "Servicio",
+      "reflexion": "Jesús se arrodilla ante sus discípulos y transforma el servicio en signo de amor.",
+      "oracion": "Jesús, enséñame a servir sin buscar reconocimiento."
+    },
+    "240": {
+      "titulo": "La paz de Cristo",
+      "referencia": "Juan 14, 25-31",
+      "tema": "Paz",
+      "reflexion": "La paz que Jesús ofrece nace de una confianza profunda en Dios.",
+      "oracion": "Jesús, dame tu paz y llévala también a mi familia."
+    },
+    "241": {
+      "titulo": "La alegría completa",
+      "referencia": "Juan 15, 9-17",
+      "tema": "Amor",
+      "reflexion": "Permanecer en el amor de Jesús es una fuente de alegría profunda.",
+      "oracion": "Jesús, enséñame a permanecer en tu amor."
+    },
+    "242": {
+      "titulo": "No están solos",
+      "referencia": "Juan 16, 20-24",
+      "tema": "Esperanza",
+      "reflexion": "El dolor puede transformarse. Jesús invita a confiar en que la tristeza no será definitiva.",
+      "oracion": "Señor, acompaña a quienes atraviesan momentos de tristeza."
+    },
+    "243": {
+      "titulo": "La unidad",
+      "referencia": "Juan 17, 20-26",
+      "tema": "Unidad de los cristianos",
+      "reflexion": "Jesús desea que sus discípulos permanezcan unidos. La unidad comienza en pequeños gestos de reconciliación.",
+      "oracion": "Señor, une a todos los cristianos."
+    },
+    "244": {
+      "titulo": "La misericordia de Jesús",
+      "referencia": "Lucas 7, 11-17",
+      "tema": "Compasión",
+      "reflexion": "Jesús se conmueve ante el sufrimiento humano. Su compasión nos invita a no ser indiferentes.",
+      "oracion": "Señor, hazme sensible al dolor de los demás."
+    },
+    "245": {
+      "titulo": "La mujer pecadora",
+      "referencia": "Lucas 7, 36-50",
+      "tema": "Perdón",
+      "reflexion": "El perdón recibido puede convertirse en una fuente de amor renovado.",
+      "oracion": "Señor, gracias por tu misericordia."
+    },
+    "246": {
+      "titulo": "Escuchar y poner en práctica",
+      "referencia": "Lucas 8, 4-15",
+      "tema": "Palabra",
+      "reflexion": "Escuchar la Palabra es solamente el comienzo. Estamos llamados a hacerla fructificar.",
+      "oracion": "Señor, que tu Palabra dé fruto en mi vida."
+    },
+    "247": {
+      "titulo": "La lámpara",
+      "referencia": "Lucas 8, 16-18",
+      "tema": "Testimonio",
+      "reflexion": "La luz recibida está destinada a iluminar a otros.",
+      "oracion": "Señor, haz que mi vida pueda iluminar a quienes me rodean."
+    },
+    "248": {
+      "titulo": "¿Quién es mi madre?",
+      "referencia": "Lucas 8, 19-21",
+      "tema": "Escuchar a Dios",
+      "reflexion": "Jesús llama familia a quienes escuchan la Palabra y la ponen en práctica.",
+      "oracion": "Señor, ayúdame a escuchar y vivir tu Palabra."
+    },
+    "249": {
+      "titulo": "La misión de los discípulos",
+      "referencia": "Lucas 9, 1-6",
+      "tema": "Misión",
+      "reflexion": "Jesús envía a sus discípulos con sencillez y confianza.",
+      "oracion": "Señor, envíame a llevar tu mensaje con humildad."
+    },
+    "250": {
+      "titulo": "¿Quién dicen que soy?",
+      "referencia": "Lucas 9, 18-27",
+      "tema": "Seguimiento",
+      "reflexion": "La pregunta de Jesús exige una respuesta personal y una decisión de seguimiento.",
+      "oracion": "Jesús, ayúdame a seguirte cada día."
+    },
+    "251": {
+      "titulo": "Setenta y dos enviados",
+      "referencia": "Lucas 10, 1-12",
+      "tema": "Evangelización",
+      "reflexion": "Cada bautizado puede ser portador de una palabra de paz y esperanza.",
+      "oracion": "Señor, hazme mensajero de tu paz."
+    },
+    "252": {
+      "titulo": "El Padre conoce nuestras necesidades",
+      "referencia": "Mateo 6, 7-13",
+      "tema": "Padre Nuestro",
+      "reflexion": "La oración cristiana nace de la confianza en un Padre que escucha.",
+      "oracion": "Padre nuestro, hágase tu voluntad en nuestra vida."
+    },
+    "253": {
+      "titulo": "La misericordia triunfa",
+      "referencia": "Lucas 6, 36-38",
+      "tema": "Misericordia",
+      "reflexion": "La medida que utilizamos con los demás revela también cómo entendemos la misericordia de Dios.",
+      "oracion": "Señor, enséñame a ser misericordioso."
+    },
+    "254": {
+      "titulo": "La puerta estrecha",
+      "referencia": "Lucas 13, 22-30",
+      "tema": "Conversión",
+      "reflexion": "La vida cristiana requiere decisiones concretas y perseverancia.",
+      "oracion": "Señor, ayúdame a elegir el camino que conduce a la vida."
+    },
+    "255": {
+      "titulo": "El banquete",
+      "referencia": "Lucas 14, 15-24",
+      "tema": "Invitación",
+      "reflexion": "Dios invita a todos a su mesa. La respuesta requiere abrir el corazón.",
+      "oracion": "Señor, ayúdame a aceptar tu invitación."
+    },
+    "256": {
+      "titulo": "La moneda perdida",
+      "referencia": "Lucas 15, 8-10",
+      "tema": "Alegría",
+      "reflexion": "Dios se alegra cuando una persona vuelve a encontrar el camino.",
+      "oracion": "Señor, lleva tu alegría a quienes buscan volver a ti."
+    },
+    "257": {
+      "titulo": "El administrador astuto",
+      "referencia": "Lucas 16, 1-13",
+      "tema": "Responsabilidad",
+      "reflexion": "Nuestros bienes y capacidades deben utilizarse con responsabilidad y pensando en el bien.",
+      "oracion": "Señor, ayúdame a administrar bien aquello que me has confiado."
+    },
+    "258": {
+      "titulo": "El servicio",
+      "referencia": "Lucas 17, 7-10",
+      "tema": "Humildad",
+      "reflexion": "Servir a Dios no es una búsqueda de reconocimiento, sino una respuesta agradecida.",
+      "oracion": "Señor, enséñame a servir con humildad."
+    },
+    "259": {
+      "titulo": "La viuda perseverante",
+      "referencia": "Lucas 18, 1-8",
+      "tema": "Perseverancia",
+      "reflexion": "La oración perseverante mantiene viva la esperanza.",
+      "oracion": "Señor, enséñame a no abandonar la oración."
+    },
+    "260": {
+      "titulo": "Jesús y los niños",
+      "referencia": "Mateo 19, 13-15",
+      "tema": "Sencillez",
+      "reflexion": "Recibir el Reino requiere un corazón abierto, sencillo y confiado.",
+      "oracion": "Señor, dame la sencillez de un niño."
+    },
+    "261": {
+      "titulo": "El servidor fiel",
+      "referencia": "Mateo 24, 42-51",
+      "tema": "Fidelidad",
+      "reflexion": "La fidelidad se demuestra especialmente cuando nadie está mirando.",
+      "oracion": "Señor, ayúdame a ser fiel en las pequeñas cosas."
+    },
+    "262": {
+      "titulo": "Las diez vírgenes",
+      "referencia": "Mateo 25, 1-13",
+      "tema": "Preparación",
+      "reflexion": "La vida espiritual necesita atención y preparación constante.",
+      "oracion": "Señor, mantén encendida la lámpara de mi fe."
+    },
+    "263": {
+      "titulo": "Los talentos",
+      "referencia": "Mateo 25, 14-30",
+      "tema": "Dones",
+      "reflexion": "Cada persona recibe capacidades que puede poner al servicio del bien.",
+      "oracion": "Señor, ayúdame a utilizar mis talentos para servir."
+    },
+    "264": {
+      "titulo": "Tuve hambre",
+      "referencia": "Mateo 25, 31-46",
+      "tema": "Obras de misericordia",
+      "reflexion": "Jesús se identifica con quienes tienen hambre, sed, están enfermos o necesitan acogida.",
+      "oracion": "Señor, abre mis ojos ante las necesidades concretas de mis hermanos."
+    },
+    "265": {
+      "titulo": "El mandamiento nuevo",
+      "referencia": "Juan 13, 34-35",
+      "tema": "Amor fraterno",
+      "reflexion": "El amor entre los discípulos es uno de los signos más fuertes del Evangelio.",
+      "oracion": "Señor, haz que nuestra manera de amar dé testimonio de ti."
+    },
+    "266": {
+      "titulo": "La resurrección",
+      "referencia": "Mateo 28, 1-10",
+      "tema": "Vida nueva",
+      "reflexion": "La resurrección inaugura una esperanza nueva que transforma la historia.",
+      "oracion": "Jesús resucitado, renueva nuestra vida."
+    },
+    "267": {
+      "titulo": "Id y anunciad",
+      "referencia": "Mateo 28, 16-20",
+      "tema": "Misión",
+      "reflexion": "La misión cristiana consiste en llevar el Evangelio a todos con alegría y humildad.",
+      "oracion": "Señor, hazme testigo de tu Evangelio."
+    },
+    "268": {
+      "titulo": "La oración comunitaria",
+      "referencia": "Hechos 4, 23-31",
+      "tema": "Comunidad",
+      "reflexion": "Cuando una comunidad ora unida encuentra fuerza para continuar su misión.",
+      "oracion": "Señor, fortalece nuestras comunidades."
+    },
+    "269": {
+      "titulo": "Compartir los bienes",
+      "referencia": "Hechos 4, 32-37",
+      "tema": "Solidaridad",
+      "reflexion": "La fraternidad cristiana se expresa también compartiendo con quienes tienen menos.",
+      "oracion": "Señor, haznos generosos y solidarios."
+    },
+    "270": {
+      "titulo": "Servir con alegría",
+      "referencia": "Hechos 20, 17-38",
+      "tema": "Servicio",
+      "reflexion": "Pablo muestra que servir implica entrega, perseverancia y amor por la comunidad.",
+      "oracion": "Señor, dame un corazón dispuesto a servir."
+    },
+    "271": {
+      "titulo": "La reconciliación",
+      "referencia": "2 Corintios 5, 17-20",
+      "tema": "Paz",
+      "reflexion": "Quien ha experimentado la reconciliación está llamado a convertirse en constructor de paz.",
+      "oracion": "Señor, hazme instrumento de reconciliación."
+    },
+    "272": {
+      "titulo": "Dar con alegría",
+      "referencia": "2 Corintios 9, 6-11",
+      "tema": "Generosidad",
+      "reflexion": "La generosidad cristiana nace de un corazón agradecido y libre.",
+      "oracion": "Señor, enséñame a dar con alegría."
+    },
+    "273": {
+      "titulo": "La unidad del Espíritu",
+      "referencia": "Efesios 4, 1-7",
+      "tema": "Unidad",
+      "reflexion": "La unidad requiere humildad, paciencia y capacidad para soportarnos unos a otros con amor.",
+      "oracion": "Señor, ayúdanos a conservar la unidad."
+    },
+    "274": {
+      "titulo": "Caminar en el amor",
+      "referencia": "Efesios 5, 1-2",
+      "tema": "Amor",
+      "reflexion": "El cristiano está llamado a hacer del amor una forma concreta de vida.",
+      "oracion": "Señor, enséñame a caminar siempre por el camino del amor."
+    },
+    "275": {
+      "titulo": "La paz de Cristo",
+      "referencia": "Colosenses 3, 12-15",
+      "tema": "Paz",
+      "reflexion": "El perdón y la paz son esenciales para construir una comunidad verdaderamente cristiana.",
+      "oracion": "Señor, reina con tu paz en mi corazón."
+    },
+    "276": {
+      "titulo": "La oración de todos",
+      "referencia": "1 Timoteo 2, 1-6",
+      "tema": "Intercesión",
+      "reflexion": "La Iglesia está llamada a orar por todas las personas, sin excluir a nadie.",
+      "oracion": "Señor, recibe nuestras oraciones por el mundo entero."
+    },
+    "277": {
+      "titulo": "La bondad",
+      "referencia": "Tito 3, 3-8",
+      "tema": "Vida transformada",
+      "reflexion": "La gracia de Dios nos mueve a abandonar la dureza y vivir con bondad.",
+      "oracion": "Señor, hazme amable y bondadoso."
+    },
+    "278": {
+      "titulo": "La lengua que bendice",
+      "referencia": "Santiago 3, 1-12",
+      "tema": "Palabras",
+      "reflexion": "Una palabra puede levantar a una persona o herirla profundamente. Debemos hablar con responsabilidad.",
+      "oracion": "Señor, que mis palabras lleven consuelo."
+    },
+    "279": {
+      "titulo": "La paciencia",
+      "referencia": "Santiago 5, 7-11",
+      "tema": "Esperanza",
+      "reflexion": "La paciencia cristiana es una forma de esperanza activa.",
+      "oracion": "Señor, dame paciencia y confianza."
+    },
+    "280": {
+      "titulo": "La alegría en las pruebas",
+      "referencia": "1 Pedro 1, 6-9",
+      "tema": "Perseverancia",
+      "reflexion": "Las pruebas pueden purificar y fortalecer nuestra fe cuando las atravesamos acompañados por Dios.",
+      "oracion": "Señor, sostén mi fe durante las dificultades."
+    },
+    "281": {
+      "titulo": "Servir con los dones recibidos",
+      "referencia": "1 Pedro 4, 7-11",
+      "tema": "Servicio",
+      "reflexion": "Cada don recibido puede convertirse en una oportunidad para servir a los demás.",
+      "oracion": "Señor, muéstrame cómo utilizar mis dones."
+    },
+    "282": {
+      "titulo": "Caminar en la luz",
+      "referencia": "1 Juan 2, 7-11",
+      "tema": "Amor",
+      "reflexion": "Quien ama a su hermano camina en la luz.",
+      "oracion": "Señor, ayúdame a vivir sin odio ni resentimiento."
+    },
+    "283": {
+      "titulo": "Amar con hechos",
+      "referencia": "1 Juan 3, 16-24",
+      "tema": "Caridad",
+      "reflexion": "El amor cristiano se expresa en acciones concretas y no solamente en palabras.",
+      "oracion": "Señor, que mi amor se traduzca en obras."
+    },
+    "284": {
+      "titulo": "Discernir los espíritus",
+      "referencia": "1 Juan 4, 1-6",
+      "tema": "Discernimiento",
+      "reflexion": "No todo mensaje que escuchamos conduce al bien. Necesitamos discernir con sabiduría.",
+      "oracion": "Espíritu Santo, ayúdame a distinguir el bien del mal."
+    },
+    "285": {
+      "titulo": "Permanecer en el amor",
+      "referencia": "1 Juan 4, 13-21",
+      "tema": "Amor de Dios",
+      "reflexion": "Cuando descubrimos que Dios nos ama, podemos aprender a amar con mayor libertad.",
+      "oracion": "Señor, hazme permanecer en tu amor."
+    },
+    "286": {
+      "titulo": "El Cordero",
+      "referencia": "Apocalipsis 5, 1-14",
+      "tema": "Cristo victorioso",
+      "reflexion": "La imagen del Cordero recuerda que la victoria de Cristo pasa por la entrega y el amor.",
+      "oracion": "Jesús, enséñame el camino de la entrega."
+    },
+    "287": {
+      "titulo": "Una multitud de todas las naciones",
+      "referencia": "Apocalipsis 7, 9-17",
+      "tema": "Universalidad",
+      "reflexion": "La visión de Apocalipsis muestra una humanidad reunida ante Dios, más allá de diferencias y fronteras.",
+      "oracion": "Señor, une a todos los pueblos en la paz."
+    },
+    "288": {
+      "titulo": "La ciudad santa",
+      "referencia": "Apocalipsis 21, 9-27",
+      "tema": "Esperanza",
+      "reflexion": "La esperanza cristiana mira hacia una humanidad plenamente reconciliada con Dios.",
+      "oracion": "Señor, guía nuestra historia hacia tu paz."
+    },
+    "289": {
+      "titulo": "El río de la vida",
+      "referencia": "Apocalipsis 22, 1-5",
+      "tema": "Vida eterna",
+      "reflexion": "La imagen del río de vida representa la plenitud que Dios promete.",
+      "oracion": "Señor, conduce nuestra vida hacia la plenitud contigo."
+    },
+    "290": {
+      "titulo": "Ven, Espíritu Santo",
+      "referencia": "Hechos 2, 1-13",
+      "tema": "Pentecostés",
+      "reflexion": "El Espíritu Santo renueva la comunidad y la impulsa a salir al encuentro del mundo.",
+      "oracion": "Ven, Espíritu Santo, y renueva nuestra Iglesia."
+    },
+    "291": {
+      "titulo": "La comunidad que persevera",
+      "referencia": "Hechos 2, 42-47",
+      "tema": "Fraternidad",
+      "reflexion": "La comunidad cristiana se fortalece cuando comparte oración, bienes y vida.",
+      "oracion": "Señor, haz de nosotros una comunidad fraterna."
+    },
+    "292": {
+      "titulo": "La palabra con valentía",
+      "referencia": "Hechos 4, 1-22",
+      "tema": "Testimonio",
+      "reflexion": "La fe requiere a veces valentía para hablar con respeto y claridad.",
+      "oracion": "Señor, dame valor para defender el bien."
+    },
+    "293": {
+      "titulo": "Una Iglesia que sirve",
+      "referencia": "Hechos 6, 1-7",
+      "tema": "Servicio",
+      "reflexion": "La comunidad crece cuando organiza su vida para cuidar especialmente a los más necesitados.",
+      "oracion": "Señor, ayúdanos a servir a los pequeños."
+    },
+    "294": {
+      "titulo": "La alegría del Evangelio",
+      "referencia": "Hechos 8, 4-8",
+      "tema": "Evangelización",
+      "reflexion": "El anuncio del Evangelio puede llevar alegría a lugares donde antes había tristeza.",
+      "oracion": "Señor, hazme portador de buenas noticias."
+    },
+    "295": {
+      "titulo": "La gracia que transforma",
+      "referencia": "Hechos 9, 19-31",
+      "tema": "Conversión",
+      "reflexion": "La conversión auténtica produce frutos visibles y transforma la manera de relacionarnos.",
+      "oracion": "Señor, transforma mi vida."
+    },
+    "296": {
+      "titulo": "La oración abre caminos",
+      "referencia": "Hechos 16, 25-34",
+      "tema": "Oración",
+      "reflexion": "Incluso en circunstancias difíciles, la oración puede mantener viva la esperanza.",
+      "oracion": "Señor, recibe nuestras oraciones en las noches difíciles."
+    },
+    "297": {
+      "titulo": "La conciencia de misión",
+      "referencia": "Hechos 18, 1-11",
+      "tema": "Misión",
+      "reflexion": "Dios anima a Pablo a continuar. También nosotros podemos recibir fuerza para no abandonar.",
+      "oracion": "Señor, dame perseverancia en mi misión."
+    },
+    "298": {
+      "titulo": "El servicio hasta el final",
+      "referencia": "Hechos 20, 17-24",
+      "tema": "Entrega",
+      "reflexion": "La vida adquiere sentido cuando se entrega por una misión que vale la pena.",
+      "oracion": "Señor, ayúdame a vivir con propósito."
+    },
+    "299": {
+      "titulo": "La esperanza en medio del naufragio",
+      "referencia": "Hechos 27, 13-44",
+      "tema": "Esperanza",
+      "reflexion": "Pablo permanece firme y anima a los demás en medio de una situación peligrosa.",
+      "oracion": "Señor, dame serenidad para animar a otros en las dificultades."
+    },
+    "300": {
+      "titulo": "La Palabra sin cadenas",
+      "referencia": "Hechos 28, 16-31",
+      "tema": "Evangelización",
+      "reflexion": "El Evangelio continúa avanzando incluso cuando encuentra obstáculos.",
+      "oracion": "Señor, haz que tu Palabra llegue a todos los corazones."
+    },
+    "301": {
+      "titulo": "La creación espera",
+      "referencia": "Romanos 8, 18-27",
+      "tema": "Creación y esperanza",
+      "reflexion": "Toda la creación participa de una esperanza de renovación. Estamos llamados a cuidarla.",
+      "oracion": "Señor, enséñame a cuidar tu creación."
+    },
+    "302": {
+      "titulo": "El amor nunca falla",
+      "referencia": "1 Corintios 13, 4-13",
+      "tema": "Caridad",
+      "reflexion": "Todo lo que hacemos pierde sentido si no está sostenido por el amor.",
+      "oracion": "Señor, haz que el amor sea la medida de mis acciones."
+    },
+    "303": {
+      "titulo": "La reconciliación",
+      "referencia": "2 Corintios 5, 17-21",
+      "tema": "Paz",
+      "reflexion": "Cristo nos confía la misión de construir puentes donde existen divisiones.",
+      "oracion": "Señor, hazme constructor de puentes."
+    },
+    "304": {
+      "titulo": "La libertad verdadera",
+      "referencia": "Gálatas 5, 13-18",
+      "tema": "Servicio",
+      "reflexion": "La libertad encuentra su plenitud cuando se pone al servicio de los demás.",
+      "oracion": "Señor, hazme libre para amar."
+    },
+    "305": {
+      "titulo": "La humildad",
+      "referencia": "Filipenses 2, 1-11",
+      "tema": "Cristo humilde",
+      "reflexion": "Jesús nos enseña que la humildad no disminuye a la persona, sino que la hace capaz de amar.",
+      "oracion": "Jesús, hazme humilde de corazón."
+    },
+    "306": {
+      "titulo": "El consuelo de Dios",
+      "referencia": "2 Corintios 1, 3-7",
+      "tema": "Consuelo",
+      "reflexion": "Quien ha recibido consuelo puede convertirse en consuelo para otros.",
+      "oracion": "Señor, consuela mi corazón y úsame para consolar."
+    },
+    "307": {
+      "titulo": "La esperanza no defrauda",
+      "referencia": "Romanos 5, 1-5",
+      "tema": "Esperanza",
+      "reflexion": "La esperanza cristiana se fortalece incluso a través de las pruebas.",
+      "oracion": "Señor, fortalece mi esperanza."
+    },
+    "308": {
+      "titulo": "El cuerpo como templo",
+      "referencia": "1 Corintios 6, 12-20",
+      "tema": "Dignidad",
+      "reflexion": "La persona humana posee una dignidad que merece respeto y cuidado.",
+      "oracion": "Señor, ayúdame a respetar mi vida y la de los demás."
+    },
+    "309": {
+      "titulo": "La alegría de servir",
+      "referencia": "Filipenses 2, 12-18",
+      "tema": "Servicio",
+      "reflexion": "Servir con alegría puede convertirse en un testimonio silencioso pero poderoso.",
+      "oracion": "Señor, dame alegría para servir."
+    },
+    "310": {
+      "titulo": "Cristo, nuestra paz",
+      "referencia": "Efesios 2, 13-18",
+      "tema": "Paz",
+      "reflexion": "Cristo derriba las barreras que separan a las personas.",
+      "oracion": "Señor, derriba las barreras que existen entre nosotros."
+    },
+    "311": {
+      "titulo": "La fe que actúa",
+      "referencia": "Gálatas 5, 5-6",
+      "tema": "Fe y amor",
+      "reflexion": "La fe cristiana se expresa mediante el amor concreto.",
+      "oracion": "Señor, que mi fe se convierta en amor."
+    },
+    "312": {
+      "titulo": "La bondad de Dios",
+      "referencia": "Tito 3, 4-7",
+      "tema": "Gracia",
+      "reflexion": "La salvación nace de la bondad y misericordia de Dios.",
+      "oracion": "Señor, gracias por tu bondad."
+    },
+    "313": {
+      "titulo": "La fe que persevera",
+      "referencia": "Hebreos 10, 35-39",
+      "tema": "Perseverancia",
+      "reflexion": "No debemos abandonar la confianza cuando la respuesta tarda.",
+      "oracion": "Señor, ayúdame a perseverar."
+    },
+    "314": {
+      "titulo": "La misericordia",
+      "referencia": "Santiago 2, 8-13",
+      "tema": "Misericordia",
+      "reflexion": "La misericordia debe convertirse en una característica permanente de nuestra vida.",
+      "oracion": "Señor, hazme misericordioso."
+    },
+    "315": {
+      "titulo": "La humildad ante Dios",
+      "referencia": "1 Pedro 5, 5-7",
+      "tema": "Confianza",
+      "reflexion": "La humildad nos permite reconocer que necesitamos a Dios y a los demás.",
+      "oracion": "Señor, recibe mis preocupaciones."
+    },
+    "316": {
+      "titulo": "Permanecer fiel",
+      "referencia": "2 Timoteo 4, 6-8",
+      "tema": "Fidelidad",
+      "reflexion": "La vida cristiana es un camino de perseverancia hasta el final.",
+      "oracion": "Señor, ayúdame a permanecer fiel."
+    },
+    "317": {
+      "titulo": "La corona de la vida",
+      "referencia": "Santiago 1, 12-18",
+      "tema": "Perseverancia",
+      "reflexion": "La perseverancia en la prueba puede fortalecer nuestra esperanza.",
+      "oracion": "Señor, dame fortaleza ante la tentación."
+    },
+    "318": {
+      "titulo": "Una piedra viva",
+      "referencia": "1 Pedro 2, 4-10",
+      "tema": "Iglesia",
+      "reflexion": "Cada creyente está llamado a formar parte de una comunidad viva.",
+      "oracion": "Señor, ayúdame a construir tu Iglesia con mi vida."
+    },
+    "319": {
+      "titulo": "El amor vence el temor",
+      "referencia": "1 Juan 4, 16-19",
+      "tema": "Amor",
+      "reflexion": "El amor de Dios puede liberar nuestro corazón de muchos temores.",
+      "oracion": "Señor, que tu amor sea más fuerte que mis miedos."
+    },
+    "320": {
+      "titulo": "Esperar al Señor",
+      "referencia": "Salmo 27, 1-14",
+      "tema": "Esperanza",
+      "reflexion": "Esperar en Dios requiere valentía y confianza.",
+      "oracion": "Señor, dame valor para esperar en ti."
+    },
+    "321": {
+      "titulo": "El refugio",
+      "referencia": "Salmo 46, 1-12",
+      "tema": "Protección",
+      "reflexion": "Dios puede ser nuestro refugio cuando todo parece moverse a nuestro alrededor.",
+      "oracion": "Señor, sé mi refugio."
+    },
+    "322": {
+      "titulo": "Un corazón agradecido",
+      "referencia": "Salmo 92, 1-16",
+      "tema": "Gratitud",
+      "reflexion": "Dar gracias cambia nuestra mirada y nos permite reconocer la presencia de Dios.",
+      "oracion": "Gracias, Señor, por este día."
+    },
+    "323": {
+      "titulo": "La creación alaba",
+      "referencia": "Salmo 104, 1-35",
+      "tema": "Creación",
+      "reflexion": "Contemplar la creación puede despertar en nosotros admiración y responsabilidad.",
+      "oracion": "Señor, enséñame a cuidar la casa común."
+    },
+    "324": {
+      "titulo": "El Señor es bueno",
+      "referencia": "Salmo 118, 1-29",
+      "tema": "Alabanza",
+      "reflexion": "La gratitud nace al reconocer que la misericordia de Dios permanece.",
+      "oracion": "Señor, gracias por tu misericordia."
+    },
+    "325": {
+      "titulo": "El Señor guarda nuestros caminos",
+      "referencia": "Salmo 121, 1-8",
+      "tema": "Protección",
+      "reflexion": "Podemos confiar en que Dios acompaña nuestros pasos.",
+      "oracion": "Señor, guarda mi camino y el de quienes amo."
+    },
+    "326": {
+      "titulo": "La alegría de ir a la casa del Señor",
+      "referencia": "Salmo 122, 1-9",
+      "tema": "Comunidad",
+      "reflexion": "La fe también es alegría de encontrarnos como comunidad.",
+      "oracion": "Señor, bendice a tu Iglesia."
+    },
+    "327": {
+      "titulo": "Desde lo profundo",
+      "referencia": "Salmo 130, 1-8",
+      "tema": "Esperanza",
+      "reflexion": "Desde nuestras profundidades podemos llamar a Dios con confianza.",
+      "oracion": "Señor, escucha nuestro clamor."
+    },
+    "328": {
+      "titulo": "El amor de Dios permanece",
+      "referencia": "Salmo 136, 1-26",
+      "tema": "Misericordia",
+      "reflexion": "Recordar la misericordia de Dios alimenta nuestra esperanza.",
+      "oracion": "Gracias, Señor, porque tu misericordia permanece."
+    },
+    "329": {
+      "titulo": "Dios me conoce",
+      "referencia": "Salmo 139, 1-24",
+      "tema": "Presencia de Dios",
+      "reflexion": "Dios conoce nuestra vida completamente y aun así continúa amándonos.",
+      "oracion": "Señor, gracias porque me conoces y me amas."
+    },
+    "330": {
+      "titulo": "Alabar con toda la vida",
+      "referencia": "Salmo 145, 1-21",
+      "tema": "Alabanza",
+      "reflexion": "Alabar a Dios no es solamente cantar, sino reconocer su presencia en nuestra vida.",
+      "oracion": "Señor, que toda mi vida sea una alabanza."
+    },
+    "331": {
+      "titulo": "La alegría",
+      "referencia": "Salmo 146, 1-10",
+      "tema": "Esperanza",
+      "reflexion": "La esperanza puesta en Dios es más firme que la confianza exclusiva en las fuerzas humanas.",
+      "oracion": "Señor, fortalece nuestra esperanza."
+    },
+    "332": {
+      "titulo": "El Señor sana",
+      "referencia": "Salmo 147, 1-20",
+      "tema": "Sanación",
+      "reflexion": "Dios conoce nuestras heridas y puede acompañar nuestros procesos de sanación.",
+      "oracion": "Señor, sana nuestros corazones."
+    },
+    "333": {
+      "titulo": "Alabanza de toda la creación",
+      "referencia": "Salmo 148, 1-14",
+      "tema": "Creación",
+      "reflexion": "Toda la creación puede convertirse en una invitación a reconocer la grandeza de Dios.",
+      "oracion": "Señor, enséñame a contemplar tu creación."
+    },
+    "334": {
+      "titulo": "Cantar al Señor",
+      "referencia": "Salmo 149, 1-9",
+      "tema": "Alegría",
+      "reflexion": "La alegría espiritual nace de reconocer que Dios está presente y actúa.",
+      "oracion": "Señor, llena de alegría nuestros corazones."
+    },
+    "335": {
+      "titulo": "Todo ser viviente alabe",
+      "referencia": "Salmo 150, 1-6",
+      "tema": "Alabanza",
+      "reflexion": "La vida entera puede convertirse en una respuesta de gratitud.",
+      "oracion": "Señor, recibe nuestra alabanza."
+    },
+    "336": {
+      "titulo": "La palabra amable",
+      "referencia": "Proverbios 15, 1-4",
+      "tema": "Palabras",
+      "reflexion": "Una respuesta serena puede evitar conflictos y abrir caminos de diálogo.",
+      "oracion": "Señor, pon serenidad en mis palabras."
+    },
+    "337": {
+      "titulo": "El amigo fiel",
+      "referencia": "Proverbios 17, 17",
+      "tema": "Amistad",
+      "reflexion": "La verdadera amistad permanece especialmente cuando llegan las dificultades.",
+      "oracion": "Señor, bendice a mis amigos."
+    },
+    "338": {
+      "titulo": "La generosidad",
+      "referencia": "Proverbios 19, 17",
+      "tema": "Caridad",
+      "reflexion": "Ayudar a quien necesita es una manera concreta de honrar a Dios.",
+      "oracion": "Señor, hazme generoso."
+    },
+    "339": {
+      "titulo": "La justicia",
+      "referencia": "Proverbios 31, 8-9",
+      "tema": "Defensa del débil",
+      "reflexion": "Estamos llamados a hablar y actuar en favor de quienes no tienen voz.",
+      "oracion": "Señor, dame valor para defender a los vulnerables."
+    },
+    "340": {
+      "titulo": "La mujer fuerte",
+      "referencia": "Proverbios 31, 10-31",
+      "tema": "Familia y trabajo",
+      "reflexion": "La fidelidad cotidiana, el trabajo y el cuidado de la familia también pueden ser caminos de santidad.",
+      "oracion": "Señor, bendice a todas las personas que trabajan y cuidan de sus familias."
+    },
+    "341": {
+      "titulo": "La sabiduría del corazón",
+      "referencia": "Sabiduría 7, 7-14",
+      "tema": "Sabiduría",
+      "reflexion": "La sabiduría vale más que muchas riquezas porque orienta nuestra vida hacia lo esencial.",
+      "oracion": "Señor, dame sabiduría para elegir lo que realmente importa."
+    },
+    "342": {
+      "titulo": "Dios ama a todos",
+      "referencia": "Sabiduría 11, 22-26",
+      "tema": "Misericordia",
+      "reflexion": "Dios sostiene todo lo creado con amor y paciencia.",
+      "oracion": "Señor, ayúdame a mirar a cada persona con misericordia."
+    },
+    "343": {
+      "titulo": "El justo confía",
+      "referencia": "Sabiduría 3, 1-9",
+      "tema": "Vida eterna",
+      "reflexion": "La esperanza cristiana nos recuerda que la vida no termina en la muerte.",
+      "oracion": "Señor, recibe a nuestros seres queridos que han partido."
+    },
+    "344": {
+      "titulo": "La oración por los difuntos",
+      "referencia": "2 Macabeos 12, 38-46",
+      "tema": "Esperanza eterna",
+      "reflexion": "La oración por quienes han muerto expresa nuestra esperanza en la misericordia de Dios.",
+      "oracion": "Señor, recibe con misericordia a nuestros difuntos."
+    },
+    "345": {
+      "titulo": "La fidelidad de Dios",
+      "referencia": "2 Macabeos 7, 20-29",
+      "tema": "Fe",
+      "reflexion": "La fidelidad de quienes permanecen firmes puede convertirse en testimonio para generaciones futuras.",
+      "oracion": "Señor, haznos fieles en todas las circunstancias."
+    },
+    "346": {
+      "titulo": "La anunciación",
+      "referencia": "Lucas 1, 26-38",
+      "tema": "María",
+      "reflexion": "María nos enseña que una respuesta humilde puede abrir caminos extraordinarios.",
+      "oracion": "María, enséñame a confiar en Dios."
+    },
+    "347": {
+      "titulo": "La visitación",
+      "referencia": "Lucas 1, 39-56",
+      "tema": "Servicio",
+      "reflexion": "Después de recibir una misión, María se pone inmediatamente en camino para servir.",
+      "oracion": "María, enséñame a ponerme al servicio de los demás."
+    },
+    "348": {
+      "titulo": "El nacimiento de Juan",
+      "referencia": "Lucas 1, 57-80",
+      "tema": "Promesa",
+      "reflexion": "Dios puede hacer nacer esperanza incluso cuando todo parecía cerrado.",
+      "oracion": "Señor, abre caminos nuevos en nuestras vidas."
+    },
+    "349": {
+      "titulo": "El nacimiento de Jesús",
+      "referencia": "Lucas 2, 1-20",
+      "tema": "Navidad",
+      "reflexion": "En la sencillez de Belén contemplamos un Dios que se acerca a nosotros.",
+      "oracion": "Jesús, nace nuevamente en nuestro corazón."
+    },
+    "350": {
+      "titulo": "Los pastores",
+      "referencia": "Lucas 2, 8-20",
+      "tema": "Buena noticia",
+      "reflexion": "Los primeros testigos son personas sencillas. Dios confía su alegría a quienes están dispuestos a escuchar.",
+      "oracion": "Señor, hazme mensajero de buenas noticias."
+    },
+    "351": {
+      "titulo": "La presentación de Jesús",
+      "referencia": "Lucas 2, 22-40",
+      "tema": "Consagración",
+      "reflexion": "Simeón y Ana esperan con paciencia y reconocen al Salvador cuando llega.",
+      "oracion": "Señor, dame paciencia para esperar y ojos para reconocerte."
+    },
+    "352": {
+      "titulo": "Jesús crece",
+      "referencia": "Lucas 2, 41-52",
+      "tema": "Familia",
+      "reflexion": "La vida cotidiana de Jesús también fue un camino de crecimiento, aprendizaje y familia.",
+      "oracion": "Señor, bendice nuestras familias."
+    },
+    "353": {
+      "titulo": "El bautismo de Jesús",
+      "referencia": "Mateo 3, 13-17",
+      "tema": "Identidad",
+      "reflexion": "El bautismo de Jesús inaugura públicamente su misión.",
+      "oracion": "Señor, ayúdame a vivir fielmente mi vocación."
+    },
+    "354": {
+      "titulo": "La tentación",
+      "referencia": "Mateo 4, 1-11",
+      "tema": "Discernimiento",
+      "reflexion": "Jesús enfrenta la tentación permaneciendo fiel a Dios.",
+      "oracion": "Señor, dame fortaleza para rechazar todo aquello que me aleja de ti."
+    },
+    "355": {
+      "titulo": "La llamada de los discípulos",
+      "referencia": "Mateo 4, 18-22",
+      "tema": "Vocación",
+      "reflexion": "Los discípulos dejan sus seguridades y comienzan un nuevo camino junto a Jesús.",
+      "oracion": "Jesús, ayúdame a seguirte con generosidad."
+    },
+    "356": {
+      "titulo": "La casa sobre roca",
+      "referencia": "Mateo 7, 24-27",
+      "tema": "Fe",
+      "reflexion": "Una vida construida sobre la Palabra puede permanecer firme en medio de las tormentas.",
+      "oracion": "Señor, sé el fundamento de mi vida."
+    },
+    "357": {
+      "titulo": "La compasión de Jesús",
+      "referencia": "Mateo 9, 35-38",
+      "tema": "Misericordia",
+      "reflexion": "Jesús mira a la multitud con compasión. La mirada cristiana comienza cuando aprendemos a mirar así.",
+      "oracion": "Señor, dame una mirada compasiva."
+    },
+    "358": {
+      "titulo": "El perdón",
+      "referencia": "Mateo 18, 21-35",
+      "tema": "Misericordia",
+      "reflexion": "El perdón recibido nos compromete a no cerrar el corazón ante quienes nos han herido.",
+      "oracion": "Señor, enséñame a perdonar."
+    },
+    "359": {
+      "titulo": "El servicio",
+      "referencia": "Mateo 20, 25-28",
+      "tema": "Servicio",
+      "reflexion": "Jesús presenta el servicio como el camino de la verdadera grandeza.",
+      "oracion": "Jesús, hazme servidor de mis hermanos."
+    },
+    "360": {
+      "titulo": "El amor a Dios y al prójimo",
+      "referencia": "Mateo 22, 34-40",
+      "tema": "Amor",
+      "reflexion": "Toda la vida cristiana puede resumirse en amar a Dios y amar al prójimo.",
+      "oracion": "Señor, enséñame a amar con todo mi corazón."
+    },
+    "361": {
+      "titulo": "Cristo, nuestra esperanza",
+      "referencia": "Colosenses 1, 24-29",
+      "tema": "Esperanza",
+      "reflexion": "La esperanza cristiana no es una ilusión, sino una confianza que transforma nuestra manera de vivir.",
+      "oracion": "Señor, mantén viva nuestra esperanza."
+    },
+    "362": {
+      "titulo": "Todo lo puedo en Cristo",
+      "referencia": "Filipenses 4, 10-13",
+      "tema": "Fortaleza",
+      "reflexion": "La fortaleza cristiana consiste en aprender a vivir cada circunstancia sostenidos por Dios.",
+      "oracion": "Señor, dame fuerza para afrontar cada día."
+    },
+    "363": {
+      "titulo": "La fidelidad hasta el final",
+      "referencia": "2 Timoteo 4, 6-8",
+      "tema": "Perseverancia",
+      "reflexion": "Al mirar hacia atrás podemos descubrir que cada paso de fidelidad tuvo sentido.",
+      "oracion": "Señor, ayúdame a terminar mi camino con fidelidad."
+    },
+    "364": {
+      "titulo": "Un cielo nuevo y una tierra nueva",
+      "referencia": "Apocalipsis 21, 1-7",
+      "tema": "Esperanza eterna",
+      "reflexion": "Dios promete una creación renovada donde el dolor y la muerte no tendrán la última palabra.",
+      "oracion": "Señor, fortalece nuestra esperanza en tu promesa."
+    },
+    "365": {
+      "titulo": "Ven, Señor Jesús",
+      "referencia": "Apocalipsis 22, 12-21",
+      "tema": "Esperanza y encuentro con Cristo",
+      "reflexion": "Terminamos este camino recordando que toda nuestra vida se dirige hacia el encuentro definitivo con Cristo. La lectura de la Biblia no termina aquí: cada nuevo año puede ser una nueva oportunidad para volver a comenzar.",
+      "oracion": "Señor Jesús, gracias por acompañarme durante este año. Permanece conmigo, guía mis pasos y ayúdame a vivir cada día más cerca de ti."
+    }
+  }
+}

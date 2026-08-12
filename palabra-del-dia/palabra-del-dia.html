@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Palabra del Día | Lectura Bíblica Diaria</title>
+    <meta
+      name="description"
+      content="Una lectura bíblica diaria para detenernos, leer y meditar. Un momento de paz y reflexión para cada día del año, con referencia, versículo, reflexión y oración."
+    />
+    <link
+      rel="canonical"
+      href="https://chinomixel11.github.io/palabra-del-dia/palabra-del-dia.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta
+      property="og:title"
+      content="La Palabra del Día | Lectura Bíblica Diaria"
+    />
+    <meta
+      property="og:description"
+      content="Una lectura bíblica diaria para detenernos, leer y meditar. Un momento de paz y reflexión para cada día del año."
+    />
+    <meta
+      property="og:url"
+      content="https://chinomixel11.github.io/palabra-del-dia/palabra-del-dia.html"
+    />
+    <meta name="twitter:card" content="summary" />
+    <link rel="stylesheet" href="palabra-del-dia.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="palabra-body">
+    <a class="palabra-skip" href="#contenido">Saltar al contenido</a>
+
+    <header class="palabra-header">
+      <button
+        id="menu-toggle"
+        type="button"
+        class="palabra-menu-toggle"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="menu-lateral"
+      >
+        ☰
+      </button>
+      <h1 class="palabra-titulo">📖 La Palabra de cada día</h1>
+      <p class="palabra-subtitulo">Un momento para detenernos, leer y meditar.</p>
+      <nav class="palabra-volver" aria-label="Volver al sitio principal">
+        <a href="../index.html">← Volver al sitio del Papa Francisco</a>
+      </nav>
+    </header>
+
+    <div id="menu-overlay" class="palabra-menu-overlay" hidden></div>
+    <nav
+      id="menu-lateral"
+      class="palabra-menu-lateral"
+      aria-label="Menú de la sección"
+      aria-hidden="true"
+    >
+      <div class="palabra-menu-cabeza">
+        <span class="palabra-menu-titulo">📖 La Palabra de cada día</span>
+        <button
+          id="menu-cerrar"
+          type="button"
+          class="palabra-menu-cerrar"
+          aria-label="Cerrar menú"
+        >
+          ✕
+        </button>
+      </div>
+      <ul class="palabra-menu-lista">
+        <li>
+          <a href="#lectura-dia" data-menu-ir="lectura-dia">📖 Lectura del día</a>
+        </li>
+        <li>
+          <a href="#emociones" data-menu-ir="emociones">❤️ Biblia según cómo te sientes</a>
+        </li>
+        <li>
+          <a href="#calendario" data-menu-ir="calendario">📅 Lecturas del año</a>
+        </li>
+        <li>
+          <a href="#buscador-biblia" data-menu-ir="buscador-biblia">🔎 Buscar en la Biblia</a>
+        </li>
+        <li>
+          <a href="#favoritos" data-menu-ir="favoritos">❤️ Mis favoritos</a>
+        </li>
+        <li>
+          <a href="#sobre-seccion" data-menu-ir="sobre-seccion">ℹ️ Sobre esta sección</a>
+        </li>
+        <li>
+          <a href="../index.html">← Volver al sitio principal</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="contenido" class="palabra-page">
+      <section id="lectura-dia" aria-label="Lectura del día">
+        <section class="palabra-fecha" aria-live="polite">
+          <p id="palabra-fecha" class="palabra-fecha-texto">…</p>
+        </section>
+
+        <section
+          id="palabra-lectura"
+          class="palabra-card"
+          aria-live="polite"
+        ></section>
+
+        <nav class="palabra-navegacion" aria-label="Navegación entre lecturas">
+          <button id="btn-prev" type="button" class="palabra-btn palabra-btn-nav">
+            ← Día anterior
+          </button>
+          <button id="btn-hoy" type="button" class="palabra-btn palabra-btn-hoy">
+            HOY
+          </button>
+          <button id="btn-next" type="button" class="palabra-btn palabra-btn-nav">
+            Día siguiente →
+          </button>
+        </nav>
+      </section>
+
+      <section id="emociones" class="emociones-section" aria-label="Biblia según cómo te sientes">
+        <h2 class="palabra-h2">❤️ Biblia según cómo te sientes</h2>
+        <p class="emociones-intro">
+          Todos atravesamos diferentes momentos en la vida. Elige lo que estás
+          viviendo hoy y encuentra una palabra de la Biblia para acompañarte.
+        </p>
+        <div id="emociones-grid" class="emociones-grid"></div>
+        <div id="pasaje-view" class="pasaje-view" hidden></div>
+      </section>
+
+      <section id="calendario" class="palabra-calendario" aria-label="Calendario de lecturas">
+        <h2 class="palabra-h2">Calendario de lecturas</h2>
+        <div class="palabra-cal-toolbar">
+          <button
+            id="cal-prev"
+            type="button"
+            class="palabra-btn palabra-btn-cal"
+            aria-label="Mes anterior"
+          >
+            ‹
+          </button>
+          <span id="cal-mes" class="palabra-cal-mes" aria-live="polite">…</span>
+          <button
+            id="cal-next"
+            type="button"
+            class="palabra-btn palabra-btn-cal"
+            aria-label="Mes siguiente"
+          >
+            ›
+          </button>
+        </div>
+        <div id="cal-grilla" class="palabra-cal-grilla" role="grid"></div>
+      </section>
+
+      <section
+        id="buscador-biblia"
+        class="buscador-section"
+        aria-label="Buscar en la Biblia"
+      >
+        <h2 class="palabra-h2">🔎 Buscar en la Biblia</h2>
+        <p class="buscador-intro">
+          Busca una palabra, un tema, un libro o una referencia bíblica.
+        </p>
+        <form id="buscador-form" class="buscador-form" role="search">
+          <input
+            id="buscador-input"
+            type="search"
+            class="buscador-input"
+            placeholder="🔎 Buscar en la Biblia…"
+            autocomplete="off"
+            aria-label="Buscar en la Biblia"
+          />
+          <button type="submit" class="buscador-btn">Buscar</button>
+        </form>
+
+        <div class="buscador-filtros">
+          <label class="buscador-filtro" for="buscador-libro">
+            Libro
+            <select id="buscador-libro" class="buscador-select">
+              <option value="">Todos</option>
+            </select>
+          </label>
+          <fieldset class="buscador-testamento">
+            <legend>Testamento</legend>
+            <label><input type="radio" name="testamento" value="" checked /> Todos</label>
+            <label><input type="radio" name="testamento" value="Antiguo" /> Antiguo</label>
+            <label><input type="radio" name="testamento" value="Nuevo" /> Nuevo</label>
+            <label><input type="radio" name="testamento" value="Deuterocanónico" /> Deuterocanónico</label>
+          </fieldset>
+        </div>
+
+        <div id="buscador-recientes" class="buscador-recientes" hidden></div>
+        <div id="buscador-sugerencias" class="buscador-sugerencias"></div>
+        <div id="buscador-estado" class="buscador-estado" aria-live="polite"></div>
+        <div id="buscador-resultados" class="buscador-resultados"></div>
+        <div id="buscador-mas" class="buscador-mas" hidden>
+          <button id="btn-cargar-mas" type="button" class="buscador-btn">
+            Cargar más
+          </button>
+        </div>
+      </section>
+
+      <section id="favoritos" class="favoritos-section" aria-label="Mis favoritos">
+        <h2 class="palabra-h2">❤️ Mis favoritos</h2>
+        <p id="favoritos-vacio" class="favoritos-vacio">
+          Todavía no has guardado pasajes. Cuando guardes uno, aparecerá aquí.
+        </p>
+        <div id="favoritos-grid" class="favoritos-grid"></div>
+      </section>
+
+      <section id="sobre-seccion" class="sobre-section" aria-label="Sobre esta sección">
+        <h2 class="palabra-h2">ℹ️ Sobre esta sección</h2>
+        <p>
+          «La Palabra de cada día» ofrece la lectura bíblica diaria y una
+          selección de pasajes según cómo te sientes. Los textos se muestran en
+          la traducción Reina Valera 1909 (dominio público) y Biblia Libre,
+          con reflexiones y oraciones propias del sitio.
+        </p>
+      </section>
+
+      <section class="palabra-compartir" aria-label="Compartir esta lectura">
+        <h2 class="palabra-h2">Compartir esta lectura</h2>
+        <div class="palabra-share-btns">
+          <button
+            id="share-whatsapp"
+            type="button"
+            class="palabra-btn palabra-btn-share"
+          >
+            WhatsApp
+          </button>
+          <button
+            id="share-facebook"
+            type="button"
+            class="palabra-btn palabra-btn-share"
+          >
+            Facebook
+          </button>
+          <button
+            id="share-copiar"
+            type="button"
+            class="palabra-btn palabra-btn-share"
+          >
+            Copiar enlace
+          </button>
+        </div>
+        <p id="share-aviso" class="palabra-share-aviso" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="palabra-footer">
+      <p>
+        La Palabra del Día · Lecturas bíblicas para acompañar cada jornada.
+      </p>
+      <p>
+        <a href="../index.html">Volver al sitio del Papa Francisco</a>
+      </p>
+    </footer>
+
+    <script src="palabra-del-dia.js"></script>
+  </body>
+</html>

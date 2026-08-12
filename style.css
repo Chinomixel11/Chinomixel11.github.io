@@ -1,7 +1,7 @@
 /********* BODY *********/
-html{
-font-family: Arial, Helvetica, sans-serif;
-cursor:crosshair;
+html {
+    font-family: "Inter", "Segoe UI", Arial, Helvetica, sans-serif;
+    cursor: default;
 }
 
 /* Fondo fijo al viewport: se renderiza nítido en todas las pantallas
@@ -18,54 +18,62 @@ body::before {
 }
 
 /******** header   ********/
-h1{
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: #fff;
     text-align: center;
+    font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+    font-weight: 600;
+    text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.75);
+}
+
+h1 {
     font-size: 3em;
     margin-top: 0.5em;
-    text-shadow: 2px 2px 4px #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
     text-decoration: underline;
-    text-decoration-color: #000000;
+    text-decoration-color: rgba(212, 175, 55, 0.8);
+    text-underline-offset: 0.14em;
 }
 
-h2{
-    color: #fff;
-    text-align: center;
+h2 {
     font-size: 2em;
     margin-top: 0.5em;
-    text-shadow: 2px 2px 4px #000000;
+    font-weight: 700;
+    letter-spacing: 0.04em;
 }
 
-h3{
-    color: #fff;
-    text-align: center;
+h3 {
     font-size: 1.5em;
     margin-top: 0.5em;
-    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 0.02em;
 }
 
-h4{
-    color: #fff;
-    text-align: center;
+h4 {
     font-size: 1.9em;
     margin-top: 0.5em;
-    text-shadow: 2px 2px 4px #000000;
+    font-weight: 700;
 }
 
-h5{
-    color: #fff;
-    text-align: center;
-    font-size: 1em;
+h5 {
+    font-size: 1.05em;
     margin-top: 0.5em;
-    text-shadow: 2px 2px 4px #000000;
+    font-style: italic;
+    letter-spacing: 0.04em;
 }
 
 p {
     color: #fff;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.05em;
+    line-height: 1.75;
     margin-top: 0.5em;
-    text-shadow: 4px 4px 4px #000000;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 /******** contenido de biografias ********/
@@ -73,27 +81,25 @@ p {
     color: #fff;
     text-align: justify;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.75;
     margin: 20px auto;
     max-width: 800px;
     padding: 0 12px;
-    text-shadow: 4px 4px 4px #000000;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 .biografia p {
     text-align: justify;
 }
 
-aside img{
+aside img {
     text-align: center;
     margin-top: 0.5em;
     width: 100%;
     height: auto;
-    font-size: 1.5em;
-    border-radius: 8px;
-    border-color: #d3ae18;
-    border-style: inset;
-    border-width: 5px;
+    border-radius: 10px;
+    border: 3px solid rgba(212, 175, 55, 0.8);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
 }
 
 div {
@@ -119,6 +125,94 @@ audio {
     max-width: 100%;
 }
 
+/******** navbar superior: reproductor + navegacion ********/
+.barra-superior {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 0.55em 1.2em;
+    margin: 0;
+    font-size: 1rem; /* anula la regla generica div { font-size: 1.5em } */
+    background: rgba(10, 8, 4, 0.72);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.35);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+.barra-superior audio {
+    max-width: 240px;
+    width: 100%;
+}
+
+.barra-superior nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.3em;
+    padding: 0;
+}
+
+/* Enlaces tipo navbar: sin caja, hover dorado con subrayado animado */
+.barra-superior nav a {
+    display: inline-block;
+    padding: 0.45em 0.7em;
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
+    color: #fdfbf4;
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    box-shadow: none;
+    position: relative;
+    transition: color 0.15s ease, background-color 0.15s ease,
+        border-color 0.15s ease;
+}
+
+.barra-superior nav a::after {
+    content: "";
+    position: absolute;
+    left: 0.7em;
+    right: 0.7em;
+    bottom: 0.25em;
+    height: 2px;
+    background: #d4af37;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.18s ease;
+}
+
+.barra-superior nav a:hover,
+.barra-superior nav a:focus {
+    color: #ffd966;
+    background: rgba(212, 175, 55, 0.12);
+    border-color: rgba(212, 175, 55, 0.45);
+    transform: none;
+}
+
+.barra-superior nav a:hover::after,
+.barra-superior nav a:focus::after {
+    transform: scaleX(1);
+}
+
+/* El enlace principal (La Palabra del Dia) se destaca sutilmente */
+.barra-superior .btn-palabra-del-dia {
+    background: rgba(212, 175, 55, 0.18);
+    border-color: rgba(212, 175, 55, 0.6);
+    color: #ffe9a8;
+    font-weight: 600;
+}
+
+.barra-superior .btn-palabra-del-dia::after {
+    display: none; /* sin subrayado: ya tiene su acento dorado */
+}
+
 /******** navegacion (botones tactiles) ********/
 nav ul {
     list-style: none;
@@ -128,20 +222,32 @@ nav ul {
 nav a {
     display: inline-block;
     margin: 0.3em 0.5em;
-    padding: 0.5em 0.9em;
-    color: #fff;
+    padding: 0.6em 1.15em;
+    color: #fdfbf4;
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.45);
-    border-radius: 8px;
-    border: 1px solid #d3ae18;
-    text-shadow: 2px 2px 4px #000000;
+    background-color: rgba(18, 14, 6, 0.55);
+    border-radius: 10px;
+    border: 1px solid #d4af37;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    will-change: transform;
+    transition: background-color 0.15s ease, color 0.15s ease,
+        border-color 0.15s ease, transform 0.12s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #d4af37;
+    border-color: #d4af37;
+    color: #1c1507;
+    transform: translateY(-1px);
 }
 
 /******** footer   ********/
 article img {
     text-align: center;
     margin-top: 0.5em;
-    text-shadow: 2px 2px 4px #000000;
     height: 50px;
     width: 50px;
 }
@@ -156,12 +262,26 @@ article img {
     p  { font-size: 1em; }
     nav a { font-size: 0.95em; }
     .biografia { font-size: 17px; margin: 16px auto; }
+
+    /* Navbar: se apila en tablet (reproductor arriba, enlaces debajo) */
+    .barra-superior {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.4em;
+        padding: 0.5em 0.8em;
+    }
+    .barra-superior audio {
+        max-width: 100%;
+    }
+    .barra-superior nav ul {
+        justify-content: center;
+    }
 }
 
 /******** responsive: celular (hasta 480px) ********/
 @media (max-width: 480px) {
     body { padding: 0 0.4em; }
-    h1 { font-size: 1.7em; }
+    h1 { font-size: 1.7em; letter-spacing: 0.04em; }
     h2 { font-size: 1.4em; }
     h3 { font-size: 1.1em; }
     h4 { font-size: 1.2em; }
@@ -170,8 +290,37 @@ article img {
         display: block;
         width: 85%;
         margin: 0.4em auto;
+        text-align: center;
     }
     div { font-size: 1.1em; }
     iframe { height: auto; }
-    .biografia { font-size: 16px; margin: 10px auto; line-height: 1.55; padding: 0 4px; }
+    .biografia { font-size: 16px; margin: 10px auto; line-height: 1.6; padding: 0 4px; }
+
+    /* Navbar en movil: reproductor arriba, enlaces centrados */
+    .barra-superior {
+        flex-direction: column;
+        gap: 0.3em;
+        padding: 0.4em 0.5em;
+    }
+    .barra-superior audio {
+        max-width: 100%;
+    }
+    .barra-superior nav a {
+        padding: 0.4em 0.6em;
+        font-size: 0.78em;
+    }
+}
+
+/******** boton "La Palabra del Dia" (clase aislada) ********/
+.btn-palabra-del-dia {
+    background-color: rgba(212, 175, 55, 0.25);
+    border-color: #d4af37;
+    font-weight: 600;
+    will-change: transform;
+}
+
+.btn-palabra-del-dia:hover,
+.btn-palabra-del-dia:focus {
+    background-color: #d4af37;
+    color: #1c1507;
 }
