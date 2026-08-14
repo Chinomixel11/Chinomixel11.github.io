@@ -718,24 +718,14 @@
     cerrar.addEventListener("click", cerrarMenu);
     overlay.addEventListener("click", cerrarMenu);
 
-    // Cerrar al seleccionar una opción (y navegar suavemente)
+    // Cerrar al seleccionar una opción (y navegar a la vista correspondiente)
     var enlaces = $id("menu-lateral").querySelectorAll("a[data-menu-ir]");
     for (var i = 0; i < enlaces.length; i++) {
       enlaces[i].addEventListener("click", function (e) {
         e.preventDefault();
         var destino = this.getAttribute("data-menu-ir");
         cerrarMenu();
-        var seccion = $id(destino);
-        if (seccion) {
-          setTimeout(function () {
-            seccion.scrollIntoView({ behavior: "smooth", block: "start" });
-            if (destino === "buscador-biblia") {
-              setTimeout(function () {
-                $id("buscador-input").focus();
-              }, 350);
-            }
-          }, 300);
-        }
+        mostrarVista(destino);
       });
     }
 
@@ -746,6 +736,289 @@
       }
     });
   }
+
+  /********** Vistas: los módulos solo se muestran al entrar desde el menú **********/
+  var MODULOS_OCULTOS = ["emociones", "buscador-biblia", "favoritos", "emisoras"];
+  var SECCIONES_PRINCIPALES = [
+    "lectura-dia",
+    "calendario",
+    "sobre-seccion",
+    "compartir"
+  ];
+
+  function mostrarVista(destino) {
+    var esModulo = MODULOS_OCULTOS.indexOf(destino) !== -1;
+    var i;
+    for (i = 0; i < MODULOS_OCULTOS.length; i++) {
+      // Los módulos solo se muestran cuando son el destino elegido
+      $id(MODULOS_OCULTOS[i]).hidden =
+        !esModulo || MODULOS_OCULTOS[i] !== destino;
+    }
+    for (i = 0; i < SECCIONES_PRINCIPALES.length; i++) {
+      $id(SECCIONES_PRINCIPALES[i]).hidden = esModulo;
+    }
+    var seccion = $id(destino);
+    if (seccion) {
+      setTimeout(function () {
+        seccion.scrollIntoView({ behavior: "smooth", block: "start" });
+        if (destino === "buscador-biblia") {
+          setTimeout(function () {
+            var input = $id("buscador-input");
+            if (input) input.focus();
+          }, 350);
+        }
+      }, 300);
+    }
+  }
+
+  function aplicarVistaSegunHash() {
+    var hash = location.hash;
+    if (!hash) return;
+    var nombre = hash.indexOf("#dia-") === 0 ? "lectura-dia" : hash.slice(1);
+    if (
+      MODULOS_OCULTOS.indexOf(nombre) !== -1 ||
+      SECCIONES_PRINCIPALES.indexOf(nombre) !== -1
+    ) {
+      mostrarVista(nombre);
+    }
+  }
+
+  // Enlaces "← Volver a la lectura del día" dentro de cada módulo
+  var enlacesVolver = document.querySelectorAll("[data-volver]");
+  for (var v = 0; v < enlacesVolver.length; v++) {
+    enlacesVolver[v].addEventListener("click", function (e) {
+      e.preventDefault();
+      mostrarVista(this.getAttribute("data-volver"));
+    });
+  }
+
+  // Al abrir la página con un hash de sección, mostrar esa vista directamente
+  aplicarVistaSegunHash();
+  window.addEventListener("hashchange", aplicarVistaSegunHash);
+
+  /********** Radios cristianas en línea **********/
+  var CLAVE_EMISORA = "palabra_emisora_v1";
+  var CLAVE_VOLUMEN = "palabra_radio_volumen_v1";
+  var emisorasData = null;
+  var emisoraActual = -1;
+
+  function cargarEmisoras() {
+    return fetch("data/emisoras.json", { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(function (json) {
+        emisorasData = (json && json.emisoras) || [];
+        renderEmisoras();
+        restaurarRadio();
+      })
+      .catch(function () {
+        var bar = $id("radio-bar");
+        if (bar) bar.hidden = true;
+      });
+  }
+
+  function renderEmisoras() {
+    var grid = $id("emisoras-grid");
+    if (!grid) return;
+    grid.textContent = "";
+    if (!emisorasData || emisorasData.length === 0) return;
+    for (var i = 0; i < emisorasData.length; i++) {
+      (function (emisora, idx) {
+        var card = el("article", "emisora-card");
+        card.setAttribute("data-emisora", String(idx));
+        card.appendChild(el("div", "emisora-nombre", "📻 " + emisora.nombre));
+        card.appendChild(
+          el("div", "emisora-detalle", emisora.pais + " · " + emisora.tipo)
+        );
+        card.appendChild(el("p", "emisora-desc", emisora.descripcion));
+        var btn = el("button", "emisora-btn", "▶ Reproducir");
+        btn.type = "button";
+        btn.setAttribute("aria-label", "Reproducir " + emisora.nombre);
+        btn.addEventListener("click", function () {
+          reproducirEmisora(idx);
+        });
+        card.appendChild(btn);
+        grid.appendChild(card);
+      })(emisorasData[i], i);
+    }
+  }
+
+  function restaurarRadio() {
+    var audio = $id("radio-audio");
+    if (!audio || !emisorasData || emisorasData.length === 0) return;
+    try {
+      var vol = parseInt(localStorage.getItem(CLAVE_VOLUMEN), 10);
+      if (!isNaN(vol)) {
+        audio.volume = Math.max(0, Math.min(1, vol / 100));
+        var slider = $id("radio-volumen");
+        if (slider) slider.value = Math.round(audio.volume * 100);
+      }
+    } catch (e) {
+      /* almacenamiento no disponible */
+    }
+    try {
+      var idx = parseInt(localStorage.getItem(CLAVE_EMISORA), 10);
+      if (!isNaN(idx) && emisorasData[idx]) {
+        seleccionarEmisora(idx, false);
+      }
+    } catch (e) {
+      /* almacenamiento no disponible */
+    }
+  }
+
+  function seleccionarEmisora(idx, reproducir) {
+    if (!emisorasData || !emisorasData[idx]) return;
+    emisoraActual = idx;
+    var audio = $id("radio-audio");
+    audio.src = emisorasData[idx].url;
+    audio.preload = "none";
+    $id("radio-nombre").textContent = emisorasData[idx].nombre;
+    $id("radio-play").textContent = reproducir ? "⏸" : "▶";
+    $id("radio-play").setAttribute(
+      "aria-label",
+      reproducir ? "Pausar" : "Reproducir"
+    );
+    marcarEmisoraActiva(idx);
+    try {
+      localStorage.setItem(CLAVE_EMISORA, String(idx));
+    } catch (e) {
+      /* almacenamiento no disponible */
+    }
+    if (reproducir) {
+      var p = audio.play();
+      if (p && p.catch) p.catch(function () {});
+    }
+  }
+
+  function reproducirEmisora(idx) {
+    var audio = $id("radio-audio");
+    if (emisoraActual === idx && audio.paused === false) return;
+    seleccionarEmisora(idx, true);
+  }
+
+  function toggleRadio() {
+    var audio = $id("radio-audio");
+    if (!emisorasData || emisorasData.length === 0) return;
+    if (emisoraActual < 0) {
+      seleccionarEmisora(0, true);
+      return;
+    }
+    if (audio.paused) {
+      var p = audio.play();
+      if (p && p.catch) p.catch(function () {});
+    } else {
+      audio.pause();
+    }
+  }
+
+  function radioCambiar(delta) {
+    if (!emisorasData || emisorasData.length === 0) return;
+    var base = emisoraActual < 0 ? 0 : emisoraActual;
+    var idx =
+      (base + delta + emisorasData.length) % emisorasData.length;
+    seleccionarEmisora(idx, true);
+  }
+
+  function marcarEmisoraActiva(idx) {
+    var grid = $id("emisoras-grid");
+    if (!grid) return;
+    var cards = grid.querySelectorAll("[data-emisora]");
+    for (var i = 0; i < cards.length; i++) {
+      cards[i].classList.toggle("activa", String(i) === String(idx));
+    }
+  }
+
+  function cambiarVolumen(valor) {
+    var audio = $id("radio-audio");
+    audio.volume = Math.max(0, Math.min(1, parseInt(valor, 10) / 100));
+    try {
+      localStorage.setItem(
+        CLAVE_VOLUMEN,
+        String(Math.round(audio.volume * 100))
+      );
+    } catch (e) {
+      /* almacenamiento no disponible */
+    }
+  }
+
+  function configurarRadio() {
+    var audio = $id("radio-audio");
+    $id("radio-play").addEventListener("click", toggleRadio);
+    $id("radio-next").addEventListener("click", function () {
+      radioCambiar(1);
+    });
+    $id("radio-prev").addEventListener("click", function () {
+      radioCambiar(-1);
+    });
+    $id("radio-volumen").addEventListener("input", function (e) {
+      cambiarVolumen(e.target.value);
+    });
+    audio.addEventListener("playing", function () {
+      $id("radio-play").textContent = "⏸";
+      $id("radio-play").setAttribute("aria-label", "Pausar");
+    });
+    audio.addEventListener("pause", function () {
+      $id("radio-play").textContent = "▶";
+      $id("radio-play").setAttribute("aria-label", "Reproducir");
+    });
+    audio.addEventListener("error", function () {
+      $id("radio-play").textContent = "▶";
+      $id("radio-play").setAttribute("aria-label", "Reproducir");
+      $id("radio-nombre").textContent = "Sin señal — elige otra emisora";
+      marcarEmisoraActiva(-1);
+    });
+  }
+
+  // Auto-inicio de la radio (el script se carga al final del body)
+  configurarRadio();
+  cargarEmisoras();
+
+  /********** Accesibilidad: mejorar visualización **********/
+  var CLAVE_ACCESIBLE = "palabra_lectura_accesible_v1";
+
+  function aplicarLecturaAccesible(activa) {
+    document.body.classList.toggle("lectura-accesible", !!activa);
+    var btn = $id("btn-accesible");
+    if (btn) {
+      btn.setAttribute("aria-pressed", activa ? "true" : "false");
+      btn.setAttribute(
+        "aria-label",
+        activa
+          ? "Restaurar visualización normal"
+          : "Mejorar visualización: texto más grande y legible"
+      );
+    }
+    try {
+      localStorage.setItem(CLAVE_ACCESIBLE, activa ? "1" : "0");
+    } catch (e) {
+      /* almacenamiento no disponible */
+    }
+  }
+
+  function alternarLecturaAccesible() {
+    aplicarLecturaAccesible(
+      !document.body.classList.contains("lectura-accesible")
+    );
+  }
+
+  function configurarAccesibilidad() {
+    var btn = $id("btn-accesible");
+    if (btn) {
+      btn.addEventListener("click", alternarLecturaAccesible);
+    }
+    try {
+      if (localStorage.getItem(CLAVE_ACCESIBLE) === "1") {
+        aplicarLecturaAccesible(true);
+      }
+    } catch (e) {
+      /* almacenamiento no disponible */
+    }
+  }
+
+  // Auto-inicio de la accesibilidad (el script se carga al final del body)
+  configurarAccesibilidad();
 
   /********** Biblia según cómo te sientes **********/
   var emocionesData = null;
@@ -1063,10 +1336,13 @@
           if (emocion) {
             emocionActual = emocion;
             pasajeIndex = fav.index || 0;
+            mostrarVista("emociones");
             var view = $id("pasaje-view");
             view.hidden = false;
             renderPasaje();
-            view.scrollIntoView({ behavior: "smooth", block: "start" });
+            setTimeout(function () {
+              view.scrollIntoView({ behavior: "smooth", block: "start" });
+            }, 400);
           }
         });
         acciones.appendChild(btnLeer);

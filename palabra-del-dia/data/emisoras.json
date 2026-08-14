@@ -1,0 +1,132 @@
+{
+  "emisoras": [
+    {
+      "id": "hcjb",
+      "nombre": "HCJB La Voz de los Andes",
+      "pais": "Ecuador",
+      "tipo": "Música y programa cristiano",
+      "descripcion": "Una de las radios cristianas más antiguas del continente, con música y programas de fe.",
+      "url": "https://streamingecuador.net:8287/hcjb"
+    },
+    {
+      "id": "twr",
+      "nombre": "Radio Transmundial (TWR)",
+      "pais": "Internacional",
+      "tipo": "Misión cristiana",
+      "descripcion": "La radio misionera cristiana que transmite en español desde hace décadas.",
+      "url": "https://cdn.instream.audio/:9050/stream"
+    },
+    {
+      "id": "worship",
+      "nombre": "Worship Radio Cristiana",
+      "pais": "Internacional",
+      "tipo": "Música de adoración",
+      "descripcion": "Adoración continua: música para orar y descansar en Dios.",
+      "url": "https://stream.zeno.fm/pynwbyvhvwouv"
+    },
+    {
+      "id": "red-cristiana",
+      "nombre": "Radio Red Cristiana",
+      "pais": "Internacional",
+      "tipo": "Alabanza y adoración",
+      "descripcion": "La mejor música de alabanza y adoración, 24 horas.",
+      "url": "https://stream.zeno.fm/o7yuvl5bnuquv"
+    },
+    {
+      "id": "vision-cristiana",
+      "nombre": "Radio Visión Cristiana Internacional",
+      "pais": "Estados Unidos",
+      "tipo": "Alabanza y palabra",
+      "descripcion": "Alabanza, adoración y palabra para la comunidad hispana.",
+      "url": "https://livestreamcdn.net:2000/stream/RadioVisionCristianaRadio/"
+    },
+    {
+      "id": "faro-caribe",
+      "nombre": "Faro del Caribe 97.1 FM",
+      "pais": "Costa Rica",
+      "tipo": "Música y enseñanza",
+      "descripcion": "Radio cristiana costarricense con música y enseñanza bíblica.",
+      "url": "https://sp.unoredcdn.net/8032/stream"
+    },
+    {
+      "id": "radio-cristiana-ar",
+      "nombre": "Radio Cristiana FM 88.3",
+      "pais": "Argentina",
+      "tipo": "Música de alabanza",
+      "descripcion": "Música de alabanza y programas desde Argentina.",
+      "url": "https://rr5100.globalhost1.com/8540/;"
+    },
+    {
+      "id": "buen-pastor",
+      "nombre": "Buen Pastor Radio",
+      "pais": "República Dominicana",
+      "tipo": "Música y esperanza",
+      "descripcion": "Música cristiana y mensajes de esperanza.",
+      "url": "https://c22.radioboss.fm:8394/stream"
+    },
+    {
+      "id": "vision-cristo",
+      "nombre": "Radio Visión de Cristo",
+      "pais": "Estados Unidos",
+      "tipo": "Adoración continua",
+      "descripcion": "Adoración continua y palabra de fe en español.",
+      "url": "https://server.radiogs.net/8208/stream"
+    },
+    {
+      "id": "bendicion",
+      "nombre": "Bendición 95.1 FM",
+      "pais": "República Dominicana",
+      "tipo": "Música y familia",
+      "descripcion": "Radio cristiana dominicana con música y programas familiares.",
+      "url": "https://sp.unoredcdn.net/8054/stream"
+    },
+    {
+      "id": "dinamica",
+      "nombre": "Radio Dinámica Barquisimeto 92.9 FM",
+      "pais": "Venezuela",
+      "tipo": "Música cristiana",
+      "descripcion": "Música cristiana y programas de edificación.",
+      "url": "https://guri.tepuyserver.net/8012/stream"
+    },
+    {
+      "id": "radio-cristiana-ve",
+      "nombre": "Radio Cristiana Venezuela",
+      "pais": "Venezuela",
+      "tipo": "Música cristiana",
+      "descripcion": "Música cristiana en vivo desde Venezuela.",
+      "url": "https://stream.zeno.fm/r7zrx18xcfhvv"
+    },
+    {
+      "id": "rn-cristiana-rd",
+      "nombre": "710 AM Radio Nacional Cristiana",
+      "pais": "República Dominicana",
+      "tipo": "Música y programa cristiano",
+      "descripcion": "Música y programas cristianos desde República Dominicana.",
+      "url": "https://node-09.zeno.fm/03yn1w98swzuv"
+    },
+    {
+      "id": "ebenezer",
+      "nombre": "Ebenezer 94.5 FM",
+      "pais": "Venezuela",
+      "tipo": "Música y mensaje",
+      "descripcion": "Radio cristiana venezolana de música y mensaje.",
+      "url": "https://stream.zeno.fm/shfz70w4k1nvv"
+    },
+    {
+      "id": "radio-viva",
+      "nombre": "Radio Viva 95.3",
+      "pais": "Guatemala",
+      "tipo": "Música y palabra",
+      "descripcion": "Radio cristiana guatemalteca con música y palabra.",
+      "url": "https://stream.zeno.fm/uus2ugdadkhvv"
+    },
+    {
+      "id": "encuentro-digital",
+      "nombre": "Encuentro Digital 104.3 FM",
+      "pais": "Honduras",
+      "tipo": "Música de adoración",
+      "descripcion": "Radio cristiana hondureña con música de adoración.",
+      "url": "https://stream.zeno.fm/n1dn94e661zuv"
+    }
+  ]
+}

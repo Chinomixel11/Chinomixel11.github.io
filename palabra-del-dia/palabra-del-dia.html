@@ -27,7 +27,7 @@
       content="https://chinomixel11.github.io/palabra-del-dia/palabra-del-dia.html"
     />
     <meta name="twitter:card" content="summary" />
-    <link rel="stylesheet" href="palabra-del-dia.css" />
+    <link rel="stylesheet" href="palabra-del-dia.css?v=10" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -49,8 +49,21 @@
       >
         ☰
       </button>
-      <h1 class="palabra-titulo">📖 La Palabra de cada día</h1>
-      <p class="palabra-subtitulo">Un momento para detenernos, leer y meditar.</p>
+      <button
+        id="btn-accesible"
+        type="button"
+        class="palabra-accesible-btn"
+        aria-pressed="false"
+        aria-label="Mejorar visualización: texto más grande y legible"
+        title="Mejorar visualización (texto grande)"
+      >
+        <span class="palabra-accesible-icon" aria-hidden="true">A+</span>
+        <span class="palabra-accesible-texto">Mejorar visualización</span>
+      </button>
+      <div class="palabra-header-texto">
+        <h1 class="palabra-titulo">📖 La Palabra de cada día</h1>
+        <p class="palabra-subtitulo">Un momento para detenernos, leer y meditar.</p>
+      </div>
       <nav class="palabra-volver" aria-label="Volver al sitio principal">
         <a href="../index.html">← Volver al sitio del Papa Francisco</a>
       </nav>
@@ -83,6 +96,9 @@
         </li>
         <li>
           <a href="#calendario" data-menu-ir="calendario">📅 Lecturas del año</a>
+        </li>
+        <li>
+          <a href="#emisoras" data-menu-ir="emisoras">📻 Emisoras FM online</a>
         </li>
         <li>
           <a href="#buscador-biblia" data-menu-ir="buscador-biblia">🔎 Buscar en la Biblia</a>
@@ -124,7 +140,13 @@
         </nav>
       </section>
 
-      <section id="emociones" class="emociones-section" aria-label="Biblia según cómo te sientes">
+      <section
+        id="emociones"
+        class="emociones-section"
+        aria-label="Biblia según cómo te sientes"
+        hidden
+      >
+        <a href="#lectura-dia" class="palabra-volver-modulo" data-volver="lectura-dia">← Volver a la lectura del día</a>
         <h2 class="palabra-h2">❤️ Biblia según cómo te sientes</h2>
         <p class="emociones-intro">
           Todos atravesamos diferentes momentos en la vida. Elige lo que estás
@@ -162,7 +184,9 @@
         id="buscador-biblia"
         class="buscador-section"
         aria-label="Buscar en la Biblia"
+        hidden
       >
+        <a href="#lectura-dia" class="palabra-volver-modulo" data-volver="lectura-dia">← Volver a la lectura del día</a>
         <h2 class="palabra-h2">🔎 Buscar en la Biblia</h2>
         <p class="buscador-intro">
           Busca una palabra, un tema, un libro o una referencia bíblica.
@@ -206,12 +230,33 @@
         </div>
       </section>
 
-      <section id="favoritos" class="favoritos-section" aria-label="Mis favoritos">
+      <section
+        id="favoritos"
+        class="favoritos-section"
+        aria-label="Mis favoritos"
+        hidden
+      >
+        <a href="#lectura-dia" class="palabra-volver-modulo" data-volver="lectura-dia">← Volver a la lectura del día</a>
         <h2 class="palabra-h2">❤️ Mis favoritos</h2>
         <p id="favoritos-vacio" class="favoritos-vacio">
           Todavía no has guardado pasajes. Cuando guardes uno, aparecerá aquí.
         </p>
         <div id="favoritos-grid" class="favoritos-grid"></div>
+      </section>
+
+      <section
+        id="emisoras"
+        class="emisoras-section"
+        aria-label="Emisoras FM online"
+        hidden
+      >
+        <a href="#lectura-dia" class="palabra-volver-modulo" data-volver="lectura-dia">← Volver a la lectura del día</a>
+        <h2 class="palabra-h2">📻 Emisoras FM online</h2>
+        <p class="emisoras-intro">
+          Música cristiana en vivo para acompañar tu lectura y tu oración.
+          Elige una emisora y suena de fondo mientras meditas.
+        </p>
+        <div id="emisoras-grid" class="emisoras-grid"></div>
       </section>
 
       <section id="sobre-seccion" class="sobre-section" aria-label="Sobre esta sección">
@@ -224,7 +269,7 @@
         </p>
       </section>
 
-      <section class="palabra-compartir" aria-label="Compartir esta lectura">
+      <section id="compartir" class="palabra-compartir" aria-label="Compartir esta lectura">
         <h2 class="palabra-h2">Compartir esta lectura</h2>
         <div class="palabra-share-btns">
           <button
@@ -253,15 +298,62 @@
       </section>
     </main>
 
+    <div class="radio-bar" id="radio-bar" role="region" aria-label="Radio de música de fondo">
+      <button
+        id="radio-prev"
+        type="button"
+        class="radio-btn"
+        aria-label="Emisora anterior"
+      >
+        ⏮
+      </button>
+      <button
+        id="radio-play"
+        type="button"
+        class="radio-btn radio-play"
+        aria-label="Reproducir"
+      >
+        ▶
+      </button>
+      <button
+        id="radio-next"
+        type="button"
+        class="radio-btn"
+        aria-label="Emisora siguiente"
+      >
+        ⏭
+      </button>
+      <span class="radio-info">
+        <span class="radio-now">📻</span>
+        <span id="radio-nombre" class="radio-nombre">Elige una emisora…</span>
+      </span>
+      <label class="radio-volumen" for="radio-volumen">
+        🔊
+        <input
+          id="radio-volumen"
+          type="range"
+          min="0"
+          max="100"
+          value="80"
+          aria-label="Volumen de la radio"
+        />
+      </label>
+      <audio id="radio-audio" preload="none"></audio>
+    </div>
+
     <footer class="palabra-footer">
-      <p>
-        La Palabra del Día · Lecturas bíblicas para acompañar cada jornada.
+      <p class="palabra-footer-leyenda">
+        La Palabra del Día · Lecturas bíblicas para acompañar cada jornada
       </p>
-      <p>
-        <a href="../index.html">Volver al sitio del Papa Francisco</a>
+      <div class="palabra-footer-creador">
+        <span class="palabra-footer-cruz" aria-hidden="true">✝</span>
+        <span>Creado por <strong>Chinomixel11</strong></span>
+      </div>
+      <p class="palabra-footer-volver">
+        <a href="../index.html">← Volver al sitio del Papa Francisco</a>
       </p>
     </footer>
 
-    <script src="palabra-del-dia.js"></script>
+    <script src="palabra-del-dia.js?v=10"></script>
   </body>
 </html>

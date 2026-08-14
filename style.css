@@ -4,6 +4,12 @@ html {
     cursor: default;
 }
 
+/* Reset: el navegador da al body un margen de 8px por defecto,
+   que abre espacios laterales (el navbar debe llegar de borde a borde) */
+body {
+    margin: 0;
+}
+
 /* Fondo fijo al viewport: se renderiza nítido en todas las pantallas
    (evita el pixelado de background-attachment: fixed en retina/HiDPI) */
 body::before {
@@ -129,24 +135,37 @@ audio {
 .barra-superior {
     position: sticky;
     top: 0;
+    left: 0;
+    right: 0;
     z-index: 50;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1em;
-    padding: 0.55em 1.2em;
+    flex-wrap: wrap;
+    gap: 0.6em 1em;
+    min-height: 3.3rem;
+    padding: 0.5em 1.25em;
     margin: 0;
     font-size: 1rem; /* anula la regla generica div { font-size: 1.5em } */
-    background: rgba(10, 8, 4, 0.72);
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    border-bottom: 1px solid rgba(212, 175, 55, 0.35);
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+    background: linear-gradient(
+        180deg,
+        rgba(16, 12, 6, 0.92),
+        rgba(8, 6, 3, 0.84)
+    );
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.4);
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    will-change: transform;
 }
 
 .barra-superior audio {
-    max-width: 240px;
+    max-width: 250px;
     width: 100%;
+    height: 2.6rem;
+    accent-color: #d4af37;
 }
 
 .barra-superior nav ul {
@@ -154,33 +173,35 @@ audio {
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
-    gap: 0.3em;
+    gap: 0.4em;
     padding: 0;
+    margin: 0;
 }
 
-/* Enlaces tipo navbar: sin caja, hover dorado con subrayado animado */
+/* Enlaces tipo navbar: píldoras sutiles con hover dorado */
 .barra-superior nav a {
     display: inline-block;
-    padding: 0.45em 0.7em;
+    padding: 0.5em 0.85em;
     font-size: 0.8em;
-    letter-spacing: 0.05em;
+    font-weight: 500;
+    letter-spacing: 0.06em;
     color: #fdfbf4;
     text-decoration: none;
     background: transparent;
     border: 1px solid transparent;
-    border-radius: 6px;
+    border-radius: 999px;
     box-shadow: none;
     position: relative;
     transition: color 0.15s ease, background-color 0.15s ease,
-        border-color 0.15s ease;
+        border-color 0.15s ease, transform 0.15s ease;
 }
 
 .barra-superior nav a::after {
     content: "";
     position: absolute;
-    left: 0.7em;
-    right: 0.7em;
-    bottom: 0.25em;
+    left: 0.85em;
+    right: 0.85em;
+    bottom: 0.3em;
     height: 2px;
     background: #d4af37;
     transform: scaleX(0);
@@ -191,9 +212,9 @@ audio {
 .barra-superior nav a:hover,
 .barra-superior nav a:focus {
     color: #ffd966;
-    background: rgba(212, 175, 55, 0.12);
-    border-color: rgba(212, 175, 55, 0.45);
-    transform: none;
+    background: rgba(212, 175, 55, 0.14);
+    border-color: rgba(212, 175, 55, 0.5);
+    transform: translateY(-1px);
 }
 
 .barra-superior nav a:hover::after,
@@ -201,16 +222,25 @@ audio {
     transform: scaleX(1);
 }
 
-/* El enlace principal (La Palabra del Dia) se destaca sutilmente */
+/* El enlace principal (La Palabra del Dia) es una píldora dorada */
 .barra-superior .btn-palabra-del-dia {
-    background: rgba(212, 175, 55, 0.18);
-    border-color: rgba(212, 175, 55, 0.6);
-    color: #ffe9a8;
-    font-weight: 600;
+    background: linear-gradient(180deg, #e0b84c, #c9a13a);
+    border-color: #e8c868;
+    color: #221803;
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
 .barra-superior .btn-palabra-del-dia::after {
-    display: none; /* sin subrayado: ya tiene su acento dorado */
+    display: none; /* sin subrayado: ya es una píldora destacada */
+}
+
+.barra-superior .btn-palabra-del-dia:hover,
+.barra-superior .btn-palabra-del-dia:focus {
+    background: linear-gradient(180deg, #f0cd6e, #d4af37);
+    border-color: #f4dc9a;
+    color: #1c1507;
+    transform: translateY(-1px);
 }
 
 /******** navegacion (botones tactiles) ********/
@@ -263,12 +293,14 @@ article img {
     nav a { font-size: 0.95em; }
     .biografia { font-size: 17px; margin: 16px auto; }
 
-    /* Navbar: se apila en tablet (reproductor arriba, enlaces debajo) */
+    /* Navbar: ancho total del dispositivo (sale del padding del body) */
     .barra-superior {
         flex-direction: column;
         align-items: center;
-        gap: 0.4em;
-        padding: 0.5em 0.8em;
+        gap: 0.35em;
+        padding: 0.5em 0.6em;
+        margin-left: -0.5em;
+        margin-right: -0.5em;
     }
     .barra-superior audio {
         max-width: 100%;
@@ -296,17 +328,27 @@ article img {
     iframe { height: auto; }
     .biografia { font-size: 16px; margin: 10px auto; line-height: 1.6; padding: 0 4px; }
 
-    /* Navbar en movil: reproductor arriba, enlaces centrados */
+    /* Navbar en movil: ancho total del dispositivo */
     .barra-superior {
         flex-direction: column;
         gap: 0.3em;
-        padding: 0.4em 0.5em;
+        padding: 0.45em 0.4em;
+        margin-left: -0.4em;
+        margin-right: -0.4em;
     }
     .barra-superior audio {
         max-width: 100%;
     }
+    .barra-superior nav ul {
+        justify-content: center;
+        gap: 0.25em;
+    }
+    /* anula la regla generica nav a (bloques al 85%) dentro del navbar */
     .barra-superior nav a {
-        padding: 0.4em 0.6em;
+        display: inline-block;
+        width: auto;
+        margin: 0;
+        padding: 0.45em 0.7em;
         font-size: 0.78em;
     }
 }
